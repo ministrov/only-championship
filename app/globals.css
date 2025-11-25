@@ -80,6 +80,11 @@ select {
   font: inherit;
 }
 
+.container {
+  max-width: 1860px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

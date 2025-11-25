@@ -1,3 +1,5 @@
 .header {
-  background-color: tomato;
+  /* background-color: tomato; */
+  border-bottom: 1px solid var(--light-grey);
+  /* border-bottom: 1px solid tomato; */
 }
