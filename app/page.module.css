@@ -1,0 +1,6 @@
+.h1 {
+  font-family: var(--font-ttRuns);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 125%;
+}

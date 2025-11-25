@@ -4,22 +4,24 @@ import "./globals.css";
 
 const firstFont = localFont({
   src: [
+    { path: '../public/fonts/ttCommons/TTCommonsProTrialRegular.woff2', weight: '400', style: 'normal' },
     { path: '../public/fonts/ttCommons/TTCommonsProTrialMedium.woff2', weight: '500', style: 'normal' },
     { path: '../public/fonts/ttCommons/TTCommonsProTrialDemiBold.woff2', weight: '600', style: 'normal' },
     { path: '../public/fonts/ttCommons/TTCommonsProTrialBold.woff2', weight: '700', style: 'normal' },
     { path: '../public/fonts/ttCommons/TTCommonsProTrialBlack.woff2', weight: '700', style: 'normal' },
   ],
-  variable: '--first',
+  variable: '--font-ttCommons',
   display: 'swap'
 });
 
 const secondFont = localFont({
   src: [
+    { path: '../public/fonts/ttRuns/TTRunsTrialRegular.woff2', weight: '400', style: 'normal' },
     { path: '../public/fonts/ttRuns/TTRunsTrialMedium.woff2', weight: '500', style: 'normal' },
     { path: '../public/fonts/ttRuns/TTRunsTrialDemiBold.woff2', weight: '600', style: 'normal' },
     { path: '../public/fonts/ttRuns/TTRunsTrialBold.woff2', weight: '700', style: 'normal' }
   ],
-  variable: '--secondary',
+  variable: '--font-ttRuns',
   display: 'swap'
 });
 

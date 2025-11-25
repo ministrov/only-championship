@@ -1,6 +1,6 @@
 :root {
-  --first: 'TT Commons Pro', 'TT Commons Pro Trial', sans-serif;
-  --secondary: 'TT Runs Trial', sans-serif;
+  --font-ttCommons: 'TT Commons Pro', 'TT Commons Pro Trial', sans-serif;
+  --font-ttRuns: 'TT Runs Trial', sans-serif;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: var(--first);
+  font-family: var(--font-ttCommons);
   color: var(--foreground);
   background: var(--background);
   -webkit-font-smoothing: antialiased;
