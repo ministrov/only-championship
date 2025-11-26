@@ -83,6 +83,8 @@ select {
 .container {
   max-width: 1860px;
   margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .visually-hidden {
