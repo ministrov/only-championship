@@ -83,6 +83,8 @@ select {
 .container {
   max-width: 1860px;
   margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .visually-hidden {
@@ -96,4 +98,11 @@ select {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
