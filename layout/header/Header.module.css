@@ -3,3 +3,7 @@
   border-bottom: 1px solid var(--light-grey);
   /* border-bottom: 1px solid tomato; */
 }
+
+.logo {
+  display: flex;
+}

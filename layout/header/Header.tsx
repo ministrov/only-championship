@@ -1,20 +1,36 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Header.module.css';
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <div className="container">
-        <Image src={'/logo.svg'} width={82} height={27} alt={'Design studio logo'} />
+        <Link href={'/'} className={styles.logo}>
+          <Image src={'/logo.svg'} width={82} height={27} alt={'Design studio logo'} />
+          <span className="visually-hidden">На главную</span>
+        </Link>
 
         <nav className={styles.navigation}>
           <ul className={styles.mainNav}>
-            <li>Проекты</li>
-            <li>Компания</li>
-            <li>Направления</li>
-            <li>Контакты</li>
-            <li>Блог</li>
-            <li>Карьера</li>
+            <li>
+              <Link href={'#'}>Проекты</Link>
+            </li>
+            <li>
+              <Link href={'#'}>Компания</Link>
+            </li>
+            <li>
+              <Link href={'#'}>Направления</Link>
+            </li>
+            <li>
+              <Link href={'#'}>Контакты</Link>
+            </li>
+            <li>
+              <Link href={'#'}>Блог</Link>
+            </li>
+            <li>
+              <Link href={'#'}>Карьера</Link>
+            </li>
           </ul>
 
           <div className={styles.favorite}>
