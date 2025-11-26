@@ -99,3 +99,10 @@ select {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

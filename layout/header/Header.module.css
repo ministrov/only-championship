@@ -66,6 +66,10 @@
   outline: none;
 }
 
+.burger {
+  display: none;
+}
+
 @media screen and (max-width: 1440px) {
   .header {
     padding-top: 12px;
@@ -137,5 +141,31 @@
     display: inline-block;
     width: 16px;
     height: 16px;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .wrapper {
+    justify-content: space-between;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+    border: none;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    max-height: 32px;
+  }
+  .logo img {
+    width: 52px;
+    height: 17px;
   }
 }

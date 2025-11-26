@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { Cross as Hamburger } from 'hamburger-react'
 import styles from './Header.module.css';
 
 export const Header = () => {
@@ -41,6 +44,18 @@ export const Header = () => {
               </button>
             </div>
           </nav>
+
+          <button className={styles.burger}>
+            <Hamburger
+              // toggled
+              size={22}
+              color="#000000"
+              easing="ease-in-out"
+              distance="md"
+              hideOutline={false}
+              label="Show menu"
+            />
+          </button>
         </div>
       </div>
     </header>
