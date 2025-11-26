@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} container`}>
       <header className={styles.top}>
         <div className={styles.left}>
           <button>Начать проект</button>
@@ -16,10 +16,10 @@ export const Footer = () => {
               <Link href={'#'}>dp</Link>
             </li>
             <li>
-              <Link href={'#'}>TG</Link>
+              <Link href={'#'}>tg</Link>
             </li>
             <li>
-              <Link href={'#'}>VK</Link>
+              <Link href={'#'}>vk</Link>
             </li>
           </ul>
 
