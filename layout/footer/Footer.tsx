@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
+import { Button } from '@/app/components/button/Button';
 import styles from './Footer.module.css';
 
 export const Footer = () => {
@@ -7,21 +8,24 @@ export const Footer = () => {
     <footer className={`${styles.footer} container`}>
       <header className={styles.top}>
         <div className={styles.left}>
-          <button>Начать проект</button>
-          <ul className={styles.footerSocials}>
-            <li>
-              <Link href={'#'}>be</Link>
-            </li>
-            <li>
-              <Link href={'#'}>dp</Link>
-            </li>
-            <li>
-              <Link href={'#'}>tg</Link>
-            </li>
-            <li>
-              <Link href={'#'}>vk</Link>
-            </li>
-          </ul>
+          <div className={styles.rightImage}>
+            <Image src={'/footer-logo.svg'} width={188} height={30} alt='A footer logo' />
+          </div>
+
+          <Button>Начать проект</Button>
+
+          <div className={styles.linksMobile}>
+            <a href="mailto:hello@only.digital">hello@only.digital</a>
+            <br />
+            <a href="tel:+74957409979">+7 (495) 740 99 79</a>
+          </div>
+
+          <div className={styles.telegramMobile}>
+            <Image src={'/tg-icon.svg'} width={16} height={16} alt={'Social icon of telegram'} />
+            <a href="#">@onlydigitalagency</a>
+          </div>
+
+          <FooterSocials />
 
           <p>© 2014 - 2024</p>
         </div>
@@ -53,8 +57,14 @@ export const Footer = () => {
         </div>
       </header>
       <footer className={styles.bottom}>
-        <p>Creative digital production</p>
-        <Link href={'#'}>Политика конфиденциальности</Link>
+        <div className={styles.slogan}>
+          <span className={styles.line}>
+            <span>Creative</span>
+            <span>digital</span>
+            <span>production</span>
+          </span>
+        </div>
+        <a href="#" target="_blank">Политика конфиденциальности</a>
       </footer>
     </footer>
   )
