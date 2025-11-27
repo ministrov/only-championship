@@ -27,10 +27,35 @@
   .footerSocials {
     margin-bottom: 111px;
   }
+
+  .footerSocials li {
+    width: 48px;
+    height: 48px;
+    padding: 16px 14px;
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
   .footerSocials {
     margin-bottom: 71px;
+  }
+
+  .footerSocials li {
+    width: 48px;
+    height: 48px;
+    padding: 16px 14px;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerSocials li {
+    font-size: 13px;
   }
 }
