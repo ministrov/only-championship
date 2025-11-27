@@ -1,7 +1,26 @@
 .footerSocials {
   display: flex;
-  gap: 8px;
+  gap: 5px;
   margin-bottom: 126px;
+}
+
+.footerSocials li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 16px 14px;
+  font-family: var(--font-ttRuns);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 1440px) {
