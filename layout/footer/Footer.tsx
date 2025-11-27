@@ -13,6 +13,17 @@ export const Footer = () => {
 
           <button>Начать проект</button>
 
+          <div className={styles.linksMobile}>
+            <a href="mailto:hello@only.digital">hello@only.digital</a>
+            <br />
+            <a href="tel:+74957409979">+7 (495) 740 99 79</a>
+          </div>
+
+          <div className={styles.telegramMobile}>
+            <Image src={'/tg-icon.svg'} width={16} height={16} alt={'Social icon of telegram'} />
+            <a href="#">@onlydigitalagency</a>
+          </div>
+
           <ul className={styles.footerSocials}>
             <li>
               <Link href={'#'}>be</Link>

@@ -90,6 +90,14 @@
   margin-bottom: 100px;
 }
 
+.linksMobile {
+  display: none;
+}
+
+.telegramMobile {
+  display: none;
+}
+
 .telegram p {
   margin-bottom: 5px;
   font-family: var(--font-ttRuns);
@@ -318,5 +326,76 @@
 
   .telegram {
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    padding-top: 25px;
+  }
+
+  .top {
+    grid-template-columns: 1fr;
+    margin-bottom: 15px;
+  }
+
+  .left .rightImage {
+    display: none;
+  }
+
+  .left button {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .left p {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 116%;
+    letter-spacing: -0.03em;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .linksMobile {
+    display: block;
+    margin-bottom: 24px;
+    font-family: var(--font-ttCommons);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--basic-black);
+  }
+
+  .telegramMobile {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .telegramMobile a {
+    font-family: var(--font-ttCommons);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--basic-black);
+  }
+
+  .slogan {
+    font-size: 12.925vw;
+    line-height: 107%;
+  }
+
+  .line {
+    flex-direction: column;
+    gap: 16px;
   }
 }
