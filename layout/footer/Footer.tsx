@@ -54,7 +54,7 @@ export const Footer = () => {
       </header>
       <footer className={styles.bottom}>
         <p>Creative digital production</p>
-        <Link href={'#'}>Политика конфиденциальности</Link>
+        <a href="#" target="_blank">Политика конфиденциальности</a>
       </footer>
     </footer>
   )
