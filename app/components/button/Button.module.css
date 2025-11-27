@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px;
+  height: 69px;
+  margin: 0;
+  margin-bottom: 111px;
+  padding: 0;
+  padding: 25px 0;
+  font-family: var(--font-ttRuns);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: var(--basic-white);
+  background-color: var(--basic-black);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .button {
+    margin-bottom: 91px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .button {
+    margin-bottom: 114px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .button {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+}

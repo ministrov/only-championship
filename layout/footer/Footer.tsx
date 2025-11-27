@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import styles from './Footer.module.css';
 import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
+import { Button } from '@/app/components/button/Button';
+import styles from './Footer.module.css';
 
 export const Footer = () => {
   return (
@@ -11,7 +12,7 @@ export const Footer = () => {
             <Image src={'/footer-logo.svg'} width={188} height={30} alt='A footer logo' />
           </div>
 
-          <button>Начать проект</button>
+          <Button>Начать проект</Button>
 
           <div className={styles.linksMobile}>
             <a href="mailto:hello@only.digital">hello@only.digital</a>
