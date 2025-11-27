@@ -7,7 +7,12 @@ export const Footer = () => {
     <footer className={`${styles.footer} container`}>
       <header className={styles.top}>
         <div className={styles.left}>
+          <div className={styles.rightImage}>
+            <Image src={'/footer-logo.svg'} width={188} height={30} alt='A footer logo' />
+          </div>
+
           <button>Начать проект</button>
+
           <ul className={styles.footerSocials}>
             <li>
               <Link href={'#'}>be</Link>

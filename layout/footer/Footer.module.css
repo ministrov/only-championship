@@ -9,6 +9,10 @@
   margin-bottom: 25px;
 }
 
+.left .rightImage {
+  display: none;
+}
+
 .left button {
   display: flex;
   align-items: center;
@@ -262,5 +266,57 @@
 
   .slogan {
     font-size: calc(0.375rem + 5.625vw);
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .left .rightImage {
+    display: block;
+    max-height: 24px;
+    margin-bottom: 40px;
+  }
+
+  .left .rightImage img {
+    width: 154px;
+    height: 24px;
+  }
+
+  .right .rightImage {
+    display: none;
+  }
+
+  .slogan {
+    font-size: 5.925vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    margin-bottom: 15px;
+  }
+
+  .left button {
+    margin-bottom: 32px;
+  }
+
+  .rightText {
+    padding-left: 20px;
+  }
+
+  .rightText > p {
+    margin-bottom: 24px;
+    font-size: 15px;
+  }
+
+  .links {
+    margin-bottom: 20px;
+  }
+
+  .links a {
+    font-size: 16px;
+  }
+
+  .telegram {
+    margin-bottom: 60px;
   }
 }
