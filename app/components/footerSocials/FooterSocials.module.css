@@ -1,0 +1,17 @@
+.footerSocials {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 126px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footerSocials {
+    margin-bottom: 111px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footerSocials {
+    margin-bottom: 71px;
+  }
+}

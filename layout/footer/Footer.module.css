@@ -36,12 +36,6 @@
   border-radius: 20px;
 }
 
-.footerSocials {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 126px;
-}
-
 .left p {
   font-family: var(--font-ttRuns);
   font-size: 20px;
@@ -182,10 +176,6 @@
     margin-bottom: 91px;
   }
 
-  .footerSocials {
-    margin-bottom: 111px;
-  }
-
   .left p {
     font-size: 18px;
   }
@@ -240,10 +230,6 @@
 
   .left button {
     margin-bottom: 114px;
-  }
-
-  .footerSocials {
-    margin-bottom: 71px;
   }
 
   .left p {

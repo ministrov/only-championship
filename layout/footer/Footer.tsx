@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from './Footer.module.css';
+import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
 
 export const Footer = () => {
   return (
@@ -24,20 +24,7 @@ export const Footer = () => {
             <a href="#">@onlydigitalagency</a>
           </div>
 
-          <ul className={styles.footerSocials}>
-            <li>
-              <Link href={'#'}>be</Link>
-            </li>
-            <li>
-              <Link href={'#'}>dp</Link>
-            </li>
-            <li>
-              <Link href={'#'}>tg</Link>
-            </li>
-            <li>
-              <Link href={'#'}>vk</Link>
-            </li>
-          </ul>
+          <FooterSocials />
 
           <p>© 2014 - 2024</p>
         </div>
