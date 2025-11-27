@@ -53,7 +53,13 @@ export const Footer = () => {
         </div>
       </header>
       <footer className={styles.bottom}>
-        <p>Creative digital production</p>
+        <div className={styles.slogan}>
+          <span className={styles.line}>
+            <span>Creative</span>
+            <span>digital</span>
+            <span>production</span>
+          </span>
+        </div>
         <a href="#" target="_blank">Политика конфиденциальности</a>
       </footer>
     </footer>
