@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
 import { Button } from '@/app/components/button/Button';
 import styles from './Footer.module.css';
+import { Presentation } from '@/app/components/presentation/Presentation';
 
 export const Footer = () => {
   return (
@@ -44,11 +45,7 @@ export const Footer = () => {
               <a href="#">@onlydigitalagency</a>
             </div>
 
-            <div className={styles.presentation}>
-              <a href="#">pdf</a>
-              <a href="#">pitch</a>
-              <p>Презентация компании</p>
-            </div>
+            <Presentation />
           </div>
 
           <div className={styles.rightImage}>
