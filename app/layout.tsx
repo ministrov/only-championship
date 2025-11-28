@@ -42,6 +42,7 @@ export default function RootLayout({
       <body className={`${firstFont.variable} ${secondFont.variable}`}>
         <Header />
         <main>
+          <h1 className='visually-hidden'>A landing page of the Only design studio</h1>
           {children}
         </main>
         <Footer />

@@ -3,6 +3,8 @@ import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
 import { Button } from '@/app/components/button/Button';
 import styles from './Footer.module.css';
 import { Presentation } from '@/app/components/presentation/Presentation';
+import { Links } from '@/app/components/links/Links';
+import { TgContact } from '@/app/components/tgContact/TgContact';
 
 export const Footer = () => {
   return (
@@ -13,7 +15,7 @@ export const Footer = () => {
             <Image src={'/footer-logo.svg'} width={188} height={30} alt='A footer logo' />
           </div>
 
-          <Button>Начать проект</Button>
+          <Button className={styles.footerBtn}>Начать проект</Button>
 
           <div className={styles.linksMobile}>
             <a href="mailto:hello@only.digital">hello@only.digital</a>
@@ -33,18 +35,8 @@ export const Footer = () => {
         <div className={styles.right}>
           <div className={styles.rightText}>
             <p>Создаем качественный digital-продукт на базе стратегии, креатива и технологий</p>
-
-            <div className={styles.links}>
-              <a href="mailto:hello@only.digital">hello@only.digital</a>
-              <br />
-              <a href="tel:+74957409979">+7 (495) 740 99 79</a>
-            </div>
-
-            <div className={styles.telegram}>
-              <p>Telegram для связи</p>
-              <a href="#">@onlydigitalagency</a>
-            </div>
-
+            <Links />
+            <TgContact />
             <Presentation />
           </div>
 

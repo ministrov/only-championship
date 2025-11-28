@@ -1,0 +1,47 @@
+.telegram {
+  margin-bottom: 100px;
+}
+
+.telegram p {
+  margin-bottom: 5px;
+  font-family: var(--font-ttRuns);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: lowercase;
+  letter-spacing: -0.04em;
+  color: var(--black-600);
+}
+
+.telegram a {
+  font-family: var(--font-ttCommons);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--black-1000);
+}
+
+@media screen and (max-width: 1440px) {
+  .telegram {
+    margin-bottom: 80px;
+  }
+
+  .telegram p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .telegram {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .telegram {
+    margin-bottom: 60px;
+  }
+}
