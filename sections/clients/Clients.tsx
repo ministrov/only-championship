@@ -10,40 +10,40 @@ export const Clients = () => {
 
       <ul className={styles.clients}>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-1.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-2.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-3.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-4.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-5.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-6.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-7.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-8.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-9.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-10.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-11.png'} width={293} height={200} alt={''} />
         </li>
         <li className={styles.client}>
-          <Image src={''} width={12} height={12} alt={''} />
+          <Image src={'/clients-12.png'} width={293} height={200} alt={''} />
         </li>
       </ul>
     </section>
