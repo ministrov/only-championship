@@ -42,21 +42,6 @@
   color: var(--basic-black);
 }
 
-.links {
-  margin-bottom: 30px;
-}
-
-.links a {
-  font-family: var(--font-ttCommons);
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -0.01em;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: var(--black-1000);
-}
-
 .telegram {
   margin-bottom: 100px;
 }
@@ -137,14 +122,6 @@
     font-size: 16px;
   }
 
-  .links {
-    margin-bottom: 24px;
-  }
-
-  .links a {
-    font-size: 22px;
-  }
-
   .telegram {
     margin-bottom: 80px;
   }
@@ -174,15 +151,6 @@
   .rightText > p {
     margin-bottom: 28px;
     font-size: 16px;
-  }
-
-  .links {
-    margin-bottom: 24px;
-  }
-
-  .links a {
-    font-size: 18px;
-    letter-spacing: 0;
   }
 
   .telegram {
@@ -227,14 +195,6 @@
   .rightText > p {
     margin-bottom: 24px;
     font-size: 15px;
-  }
-
-  .links {
-    margin-bottom: 20px;
-  }
-
-  .links a {
-    font-size: 16px;
   }
 
   .telegram {

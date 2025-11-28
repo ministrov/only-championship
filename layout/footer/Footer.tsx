@@ -3,6 +3,7 @@ import { FooterSocials } from '@/app/components/footerSocials/FooterSocials';
 import { Button } from '@/app/components/button/Button';
 import styles from './Footer.module.css';
 import { Presentation } from '@/app/components/presentation/Presentation';
+import { Links } from '@/app/components/links/Links';
 
 export const Footer = () => {
   return (
@@ -34,11 +35,7 @@ export const Footer = () => {
           <div className={styles.rightText}>
             <p>Создаем качественный digital-продукт на базе стратегии, креатива и технологий</p>
 
-            <div className={styles.links}>
-              <a href="mailto:hello@only.digital">hello@only.digital</a>
-              <br />
-              <a href="tel:+74957409979">+7 (495) 740 99 79</a>
-            </div>
+            <Links />
 
             <div className={styles.telegram}>
               <p>Telegram для связи</p>
