@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import { Links } from '@/app/components/links/Links';
+import { TgContact } from '@/app/components/tgContact/TgContact';
+import { Button } from '@/app/components/button/Button';
 import styles from './Hero.module.css';
 
 export const Hero = () => {
@@ -36,7 +39,17 @@ export const Hero = () => {
         <span>10</span> <span>лет</span> <span>Лучший креативный разработчик для b2b</span>
       </p>
 
+      <Links />
 
+      <TgContact />
+
+      <p>
+        Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
+      </p>
+
+      <div>Pdf a pitch components</div>
+
+      <Button className={styles.heroBtn}>Начать проект</Button>
     </section>
   )
 }

@@ -15,7 +15,7 @@ export const Footer = () => {
             <Image src={'/footer-logo.svg'} width={188} height={30} alt='A footer logo' />
           </div>
 
-          <Button>Начать проект</Button>
+          <Button className={styles.footerBtn}>Начать проект</Button>
 
           <div className={styles.linksMobile}>
             <a href="mailto:hello@only.digital">hello@only.digital</a>
