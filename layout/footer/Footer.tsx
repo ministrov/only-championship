@@ -4,6 +4,7 @@ import { Button } from '@/app/components/button/Button';
 import styles from './Footer.module.css';
 import { Presentation } from '@/app/components/presentation/Presentation';
 import { Links } from '@/app/components/links/Links';
+import { TgContact } from '@/app/components/tgContact/TgContact';
 
 export const Footer = () => {
   return (
@@ -34,14 +35,8 @@ export const Footer = () => {
         <div className={styles.right}>
           <div className={styles.rightText}>
             <p>Создаем качественный digital-продукт на базе стратегии, креатива и технологий</p>
-
             <Links />
-
-            <div className={styles.telegram}>
-              <p>Telegram для связи</p>
-              <a href="#">@onlydigitalagency</a>
-            </div>
-
+            <TgContact />
             <Presentation />
           </div>
 
