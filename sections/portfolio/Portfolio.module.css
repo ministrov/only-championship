@@ -51,10 +51,34 @@
   grid-template-columns: repeat(auto-fill, minmax(606px, 1fr));
   column-gap: 20px;
   row-gap: 80px;
+  margin-bottom: 100px;
 }
 
 .image {
+  margin-bottom: 20px;
+}
+
+.image img {
   border-radius: 30px;
+}
+
+.work h3 {
+  margin-bottom: 10px;
+  font-family: var(--font-ttRuns);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
+}
+
+.work p {
+  font-family: var(--font-ttCommons);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: var(--black-600);
 }
 
 .portfolioBtn {
