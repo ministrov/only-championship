@@ -32,6 +32,10 @@ export const Projects = () => {
               </li>
             </ul>
           </header>
+
+          <footer className={styles.bottom}>
+
+          </footer>
         </div>
         <div className={styles.item}></div>
         <div className={styles.item}></div>
