@@ -16,7 +16,22 @@ export const Projects = () => {
 
       <div className={styles.carousel}>
         <div className={styles.item}>
-
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={''} width={122} height={222} alt={''} />
+              </li>
+              <li>
+                <Image src={''} width={122} height={222} alt={''} />
+              </li>
+              <li>
+                <Image src={''} width={122} height={222} alt={''} />
+              </li>
+              <li>
+                <Image src={''} width={122} height={222} alt={''} />
+              </li>
+            </ul>
+          </header>
         </div>
         <div className={styles.item}></div>
         <div className={styles.item}></div>
