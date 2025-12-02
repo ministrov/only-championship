@@ -19,27 +19,137 @@ export const Projects = () => {
           <header className={styles.top}>
             <ul>
               <li>
-                <Image src={''} width={122} height={222} alt={''} />
+                <Image src={'/projects-mini-card-1.png'} width={85} height={85} alt={''} />
               </li>
               <li>
-                <Image src={''} width={122} height={222} alt={''} />
+                <Image src={'/projects-mini-card-2.png'} width={85} height={85} alt={''} />
               </li>
               <li>
-                <Image src={''} width={122} height={222} alt={''} />
+                <Image src={'/projects-mini-card-3.png'} width={85} height={85} alt={''} />
               </li>
               <li>
-                <Image src={''} width={122} height={222} alt={''} />
+                <Image src={'/projects-mini-card-4.png'} width={85} height={85} alt={''} />
               </li>
             </ul>
           </header>
 
           <footer className={styles.bottom}>
-
+            <h3>Промышленность</h3>
+            <h4>Северсталь</h4>
+            <p>Адаптация нового брендинга для digital</p>
           </footer>
         </div>
-        <div className={styles.item}></div>
-        <div className={styles.item}></div>
-        <div className={styles.item}></div>
+        <div className={styles.item}>
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={'/projects-mini-card-5.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-6.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-7.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-8.png'} width={85} height={85} alt={''} />
+              </li>
+            </ul>
+          </header>
+
+          <footer className={styles.bottom}>
+            <h3>Промышленность</h3>
+            <h4>Сибур</h4>
+            <p>Адаптация нового брендинга для digital</p>
+          </footer>
+        </div>
+        <div className={styles.item}>
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={'/projects-mini-card-9.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-10.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-11.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-12.png'} width={85} height={85} alt={''} />
+              </li>
+            </ul>
+          </header>
+
+          <footer className={styles.bottom}>
+            <h3>Недвижимость</h3>
+            <h4>MR Group</h4>
+            <p>Адаптация нового брендинга для digital</p>
+          </footer>
+        </div>
+        <div className={styles.item}>
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={'/projects-mini-card-13.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-14.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-15.png'} width={85} height={85} alt={''} />
+              </li>
+            </ul>
+          </header>
+
+          <footer className={styles.bottom}>
+            <h3>Недвижимость</h3>
+            <h4>Главстрой</h4>
+            <p>Адаптация нового брендинга для digital</p>
+          </footer>
+        </div>
+        <div className={styles.item}>
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={'/projects-mini-card-13.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-14.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-15.png'} width={85} height={85} alt={''} />
+              </li>
+            </ul>
+          </header>
+
+          <footer className={styles.bottom}>
+            <h3>Недвижимость</h3>
+            <h4>Главстрой</h4>
+            <p>Адаптация нового брендинга для digital</p>
+          </footer>
+        </div>
+        <div className={styles.item}>
+          <header className={styles.top}>
+            <ul>
+              <li>
+                <Image src={'/projects-mini-card-13.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-14.png'} width={85} height={85} alt={''} />
+              </li>
+              <li>
+                <Image src={'/projects-mini-card-15.png'} width={85} height={85} alt={''} />
+              </li>
+            </ul>
+          </header>
+
+          <footer className={styles.bottom}>
+            <h3>Недвижимость</h3>
+            <h4>Главстрой</h4>
+            <p>Адаптация нового брендинга для digital</p>
+          </footer>
+        </div>
       </div>
     </section>
   )
