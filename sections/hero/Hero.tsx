@@ -22,22 +22,29 @@ export const Hero = () => {
       </header>
 
       <footer className={styles.bottom}>
-        <div className={styles.bottomRight}>
-          <p>
-            <span>10</span> <span>лет</span> <span>Лучший креативный разработчик для b2b</span>
+        <div className={styles.bottomLeft}>
+          <p className={styles.sloganWrapper}>
+            <span className={styles.number}>10</span>
+            <span className={styles.textContainer}>
+              <span className={styles.year}>лет</span> <span className={styles.better}>Лучший креативный разработчик для b2b</span>
+            </span>
           </p>
 
-          <Links />
+          <div>
+            <Links />
 
-          <TgContact />
+            <TgContact />
+          </div>
         </div>
 
-        <div className={styles.bottomLeft}>
-          <p>
-            Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
-          </p>
+        <div className={styles.bottomRight}>
+          <div className={styles.rightText}>
+            <p className={styles.digital}>
+              Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
+            </p>
 
-          <Presentation />
+            <Presentation />
+          </div>
 
           <Button className={styles.heroBtn}>Начать проект</Button>
         </div>
