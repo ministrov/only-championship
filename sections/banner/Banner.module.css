@@ -1,4 +1,9 @@
 .banner {
-  height: 870px;
+  /* height: 870px; */
   background-color: plum;
+}
+
+.bannerBtn {
+  width: 257px;
+  height: 69px;
 }
