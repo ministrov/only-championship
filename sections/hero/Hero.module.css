@@ -1,9 +1,107 @@
 .hero {
-  height: 928px;
-  background-color: tomato;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95dvh;
+  padding-top: 80px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slogan {
+  max-width: 607px;
+  font-family: var(--font-ttRuns);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottomLeft {
+  display: flex;
+  gap: 117px;
+  border-right: 1px solid var(--light-grey);
+}
+
+.sloganWrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.number {
+  font-family: var(--font-ttRuns);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.year {
+  font-family: var(--font-ttCommons);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.01em;
+  color: var(--basic-black);
+}
+
+.better {
+  display: inline-block;
+  max-width: 193px;
+  font-family: var(--font-ttRuns);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-transform: lowercase;
+  color: var(--black-600);
+}
+
+.bottomRight {
+  display: flex;
+  gap: 58px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.digital {
+  max-width: 342px;
+  margin-bottom: 20px;
+  font-family: var(--font-ttCommons);
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: var(--basic-black);
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .heroBtn {
   width: 287px;
   height: 69px;
+  margin-top: auto;
 }

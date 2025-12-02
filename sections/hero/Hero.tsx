@@ -1,55 +1,54 @@
 import Image from 'next/image';
 import { Links } from '@/app/components/links/Links';
 import { TgContact } from '@/app/components/tgContact/TgContact';
+import { Presentation } from '@/app/components/presentation/Presentation';
 import { Button } from '@/app/components/button/Button';
 import styles from './Hero.module.css';
+import { HeroSocials } from '@/app/components/heroSosials/HeroSocials';
 
 export const Hero = () => {
   return (
     <section className={styles.hero}>
       <h2 className='visually-hidden'>Section hero</h2>
 
-      <p className={styles.slogan}>Creative digital production</p>
+      <header className={styles.top}>
+        <p className={styles.slogan}>Creative digital production</p>
 
-      <Image src={'/hero-video-img.png'} width={608} height={304} alt={'A placeholder for future video'} />
-      <ul className={styles.social}>
-        <li>
-          <span>25</span>
-          <Image src={'/social-icon-1.svg'} width={28} height={28} alt={''} />
-        </li>
-        <li>
-          <span>1</span>
-          <Image src={'/social-icon-2.svg'} width={40} height={12} alt={''} />
-        </li>
-        <li>
-          <span>26</span>
-          <Image src={'/social-icon-3.svg'} width={25} height={25} alt={''} />
-        </li>
-        <li>
-          <span>22</span>
-          <Image src={'/social-icon-4.svg'} width={23} height={29} alt={''} />
-        </li>
-        <li>
-          <span>40</span>
-          <Image src={'/social-icon-5.svg'} width={33} height={34} alt={''} />
-        </li>
-      </ul>
+        <div className={styles.image}>
+          <Image src={'/hero-video-img.png'} width={608} height={304} alt={'A placeholder for future video'} />
+        </div>
 
-      <p>
-        <span>10</span> <span>лет</span> <span>Лучший креативный разработчик для b2b</span>
-      </p>
+        <HeroSocials />
+      </header>
 
-      <Links />
+      <footer className={styles.bottom}>
+        <div className={styles.bottomLeft}>
+          <p className={styles.sloganWrapper}>
+            <span className={styles.number}>10</span>
+            <span className={styles.textContainer}>
+              <span className={styles.year}>лет</span> <span className={styles.better}>Лучший креативный разработчик для b2b</span>
+            </span>
+          </p>
 
-      <TgContact />
+          <div>
+            <Links />
 
-      <p>
-        Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
-      </p>
+            <TgContact />
+          </div>
+        </div>
 
-      <div>Pdf a pitch components</div>
+        <div className={styles.bottomRight}>
+          <div className={styles.rightText}>
+            <p className={styles.digital}>
+              Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
+            </p>
 
-      <Button className={styles.heroBtn}>Начать проект</Button>
+            <Presentation />
+          </div>
+
+          <Button className={styles.heroBtn}>Начать проект</Button>
+        </div>
+      </footer>
     </section>
   )
 }
