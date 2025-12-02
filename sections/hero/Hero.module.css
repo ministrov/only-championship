@@ -4,12 +4,23 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100dvh;
+  padding-top: 80px;
   background-color: tomato;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
+}
+
+.slogan {
+  max-width: 607px;
+  font-family: var(--font-ttRuns);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
 }
 
 .bottom {
