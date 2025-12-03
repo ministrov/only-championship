@@ -1,4 +1,46 @@
 .projects {
-  /* height: 806px; */
+  overflow: hidden;
   background-color: rebeccapurple;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.left {
+  padding-top: 50px;
+}
+
+.right {
+  display: flex;
+  gap: 85px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.title {
+  font-family: var(--font-ttRuns);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: var(--basic-black);
+}
+
+.slogan {
+  max-width: 642px;
+  font-family: var(--font-ttRuns);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
+}
+
+.carousel {
+  display: grid;
+  grid-template-columns: 450px 450px 450px 450px 450px 450px;
 }
