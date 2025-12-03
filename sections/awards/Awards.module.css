@@ -73,9 +73,17 @@
   font-family: var(--font-ttRuns);
   font-size: 70px;
   font-weight: 600;
-  line-height: 90%;
+  line-height: 63px;
   letter-spacing: -0.03em;
   color: var(--black-400);
+}
+
+.text img {
+  width: 0;
+}
+
+.text span {
+  display: flex;
 }
 
 .number {
@@ -86,4 +94,52 @@
   letter-spacing: -0.03em;
   text-transform: lowercase;
   color: var(--black-600);
+}
+
+.awardsCardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 920px;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  width: 293px;
+  height: 293px;
+  padding: 40px;
+  background-color: var(--basic-white);
+  border-radius: 30px;
+}
+
+.cardItem dt {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: var(--font-ttRuns);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: var(--basic-black);
+}
+
+.cardItem dd {
+  font-family: var(--font-ttCommons);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: var(--black-600);
+}
+
+.cardItem p {
+  margin-top: auto;
+  font-family: var(--font-ttRuns);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: var(--basic-black);
 }
