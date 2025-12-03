@@ -4,11 +4,10 @@ import styles from './Clients.module.css';
 export const Clients = () => {
   return (
     <section className={styles.clients}>
-      <h2 className='visually-hidden'>Section of the Only clients</h2>
+      {/* <h2 className='visually-hidden'>Section of the Only clients</h2> */}
+      <h2 className={styles.title}>20 клиентов — крупнейшие компании из списка Forbes. Более 100 реализованных проектов</h2>
 
-      <p>20 клиентов — крупнейшие компании из списка Forbes. Более 100 реализованных проектов</p>
-
-      <ul className={styles.clients}>
+      <ul className={styles.clientsList}>
         <li className={styles.client}>
           <Image src={'/clients-1.png'} width={293} height={200} alt={''} />
         </li>
@@ -44,6 +43,15 @@ export const Clients = () => {
         </li>
         <li className={styles.client}>
           <Image src={'/clients-12.png'} width={293} height={200} alt={''} />
+        </li>
+        <li className={styles.client}>
+          <Image src={'/clients-13.png'} width={293} height={200} alt={''} />
+        </li>
+        <li className={styles.client}>
+          <Image src={'/clients-14.png'} width={293} height={200} alt={''} />
+        </li>
+        <li className={styles.client}>
+          <Image src={'/clients-15.png'} width={293} height={200} alt={''} />
         </li>
       </ul>
     </section>

@@ -1,6 +1,5 @@
 .portfolio {
   padding-top: 130px;
-  background-color: purple;
 }
 
 .top {
@@ -84,4 +83,5 @@
 .portfolioBtn {
   width: 269px;
   height: 69px;
+  margin: 0 auto;
 }
