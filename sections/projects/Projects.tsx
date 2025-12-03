@@ -13,10 +13,10 @@ export const Projects = () => {
           <p className={styles.slogan}>Поддерживаем и развиваем долгосрочное сотрудничество</p>
 
           <div className={styles.controls}>
-            <button className={styles.prev}>
+            <button className={styles.prev} type='button'>
               <Image src={'/arrow-left.svg'} width={20} height={20} alt={''} />
             </button>
-            <button className={styles.next}>
+            <button className={styles.next} type='button'>
               <Image src={'/arrow-right.svg'} width={20} height={20} alt={''} />
             </button>
           </div>

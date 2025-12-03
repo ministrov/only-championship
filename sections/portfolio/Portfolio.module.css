@@ -9,6 +9,10 @@
   border-top: 1px solid var(--light-grey);
 }
 
+.sloganContainer {
+  border-left: 1px solid var(--light-grey);
+}
+
 .title {
   margin-top: 40px;
   font-family: var(--font-ttRuns);
