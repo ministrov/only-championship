@@ -5,10 +5,14 @@ export const Awards = () => {
   return (
     <section className={styles.awards}>
       <header className={styles.top}>
-        <h2 className={styles.title}>награды</h2>
+        <div className={styles.left}>
+          <h2 className={styles.title}>награды</h2>
+        </div>
 
-        <p>За 10 лет активной работы мы завоевали более 150 призовых мест </p>
-        <p>Каждый год подтверждаем высокие позиции в Рейтинге Рунета в сегменте крупного B2B-бизнеса. Побеждаем на международных и российских конкурсах в номинациях digital-дизайна и разработки сайтов.</p>
+        <div className={styles.right}>
+          <p className={styles.sloganOne}>За 10 лет активной работы мы завоевали более 150 призовых мест </p>
+          <p className={styles.sloganTwo}>Каждый год подтверждаем высокие позиции в Рейтинге Рунета в сегменте крупного B2B-бизнеса. Побеждаем на международных и российских конкурсах в номинациях digital-дизайна и разработки сайтов.</p>
+        </div>
       </header>
 
       <div className={styles.main}>
