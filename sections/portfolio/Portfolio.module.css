@@ -1,6 +1,5 @@
 .portfolio {
   padding-top: 130px;
-  background-color: purple;
 }
 
 .top {
@@ -8,6 +7,10 @@
   grid-template-columns: 1fr 1fr;
   margin-bottom: 80px;
   border-top: 1px solid var(--light-grey);
+}
+
+.sloganContainer {
+  border-left: 1px solid var(--light-grey);
 }
 
 .title {
@@ -84,4 +87,5 @@
 .portfolioBtn {
   width: 269px;
   height: 69px;
+  margin: 0 auto;
 }

@@ -1,3 +1,23 @@
 .clients {
-  background-color: turquoise;
+  padding-top: 160px;
+}
+
+.title {
+  max-width: 715px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: var(--font-ttRuns);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: var(--basic-black);
+}
+
+.clientsList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1465px;
+  margin: 0 auto;
 }
