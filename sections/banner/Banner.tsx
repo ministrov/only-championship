@@ -5,9 +5,9 @@ import styles from './Banner.module.css';
 export const Banner = () => {
   return (
     <section className={styles.banner}>
-      <h2 className='visually-hidden'>A section of banner with a carousel</h2>
+      <h2 className='visually-hidden'>A section of banner with a carousel of slides</h2>
 
-      <div className={styles.inner}>
+      <div className={styles.slides}>
         <div className={styles.slide}>
           <div className={styles.main}>
             <h3>недвижимость</h3>
@@ -50,6 +50,7 @@ export const Banner = () => {
             <Image src={'/banner-img-7.png'} width={471} height={644} alt={''} />
           </div>
         </div>
+
         <div className={styles.pagination}></div>
       </div>
     </section>

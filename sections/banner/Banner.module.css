@@ -1,6 +1,25 @@
 .banner {
-  /* height: 870px; */
+  overflow: hidden;
+  padding-top: 160px;
   background-color: plum;
+}
+
+.slides {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  background-color: var(--basic-white);
+  border-radius: 30px;
+}
+
+.pagination {
+  width: 150px;
+  height: 45px;
+  background-color: red;
 }
 
 .bannerBtn {
