@@ -1,13 +1,13 @@
 .banner {
   overflow: hidden;
   padding-top: 160px;
-  background-color: plum;
 }
 
 .slides {
   display: flex;
   flex-direction: column;
   background-color: var(--basic-white);
+  border-radius: 30px;
 }
 
 .mainWrapper {
@@ -63,9 +63,26 @@
 }
 
 .pagination {
-  width: 150px;
-  height: 45px;
+  display: flex;
+  gap: 10px;
+  max-width: 70px;
+  height: 10px;
   background-color: red;
+}
+
+.paginationBtn {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--basic-black);
 }
 
 .images {

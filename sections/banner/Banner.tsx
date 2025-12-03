@@ -33,7 +33,14 @@ export const Banner = () => {
             </div>
           </div>
 
-          <div className={styles.pagination}></div>
+          <div className={styles.pagination}>
+            <button type='button' className={`${styles.paginationBtn} ${styles.active}`}>
+              <span className='visually-hidden'>button of the slide 1</span>
+            </button>
+            <button type='button' className={styles.paginationBtn}>
+              <span className='visually-hidden'>button of the slide 2</span>
+            </button>
+          </div>
         </div>
 
         <div className={styles.slide}>
