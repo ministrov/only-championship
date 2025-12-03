@@ -17,81 +17,65 @@ export const Awards = () => {
 
       <div className={styles.main}>
         <div className={styles.achivements}>
-          <a href="#">
-            <p>
-              <span>
-                <Image src={'/awards-title-img-1.svg'} width={90} height={90} alt={''} />
-              </span>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
+              <Image src={'/awards-title-img-1.svg'} width={90} height={90} alt={''} />
               <span>AWWWARDS</span>
             </p>
             <span>25</span>
           </a>
-          <a href="#">
-            <p>
-              <span>
-                <Image src={'/awards-title-img-2.svg'} width={90} height={90} alt={''} />
-              </span>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
+              <Image src={'/awards-title-img-2.svg'} width={90} height={90} alt={''} />
               <span>СSSDA</span>
             </p>
             <span>28</span>
           </a>
-          <a href="#">
-            <p>
-              <span>
-                <Image src={'/awards-title-img-3.svg'} width={90} height={90} alt={''} />
-              </span>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
+              <Image src={'/awards-title-img-3.svg'} width={90} height={90} alt={''} />
               <span>Mixxrussia</span>
             </p>
             <span>5</span>
           </a>
-          <a href="#">
-            <p>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
               <span>G8</span>
-              <span>
-                <Image src={'/awards-title-img-4.svg'} width={90} height={90} alt={''} />
-              </span>
+              <Image src={'/awards-title-img-4.svg'} width={90} height={90} alt={''} />
               <span>Awards</span>
             </p>
             <span>6</span>
           </a>
-          <a href="#">
-            <p>
-              <span>
-                <Image src={'/awards-title-img-5.svg'} width={90} height={90} alt={''} />
-              </span>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
+              <Image src={'/awards-title-img-5.svg'} width={90} height={90} alt={''} />
               <span>Среда</span>
             </p>
             <span>5</span>
           </a>
-          <a href="#">
-            <p>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
               <span>Рейтинг</span>
-              <span>
-                <Image src={'/awards-title-img-6.svg'} width={90} height={90} alt={''} />
-              </span>
+              <Image src={'/awards-title-img-6.svg'} width={90} height={90} alt={''} />
               <span>Рунета</span>
             </p>
             <span>22</span>
           </a>
-          <a href="#">
-            <p>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
               <span>Золотой</span>
-              <span>
-                <Image src={'/awards-title-img-7.svg'} width={90} height={90} alt={''} />
-              </span>
+              <Image src={'/awards-title-img-7.svg'} width={90} height={90} alt={''} />
               <span>Сайт</span>
             </p>
             <span>40</span>
           </a>
-          <a href="#">
-            <p>
+          <a className={styles.link} href="#">
+            <p className={styles.text}>
               <span>WOW</span>
-              <span>
-                <Image src={'/awards-title-img-8.svg'} width={90} height={90} alt={''} />
-              </span>
+              <Image src={'/awards-title-img-8.svg'} width={90} height={90} alt={''} />
               <span>Awards</span>
             </p>
-            <span>2</span>
+            <span className={styles.number}>2</span>
           </a>
         </div>
         <div className={styles.awardsContainer}>
