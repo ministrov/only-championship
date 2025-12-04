@@ -17,6 +17,8 @@
 
 .main {
   max-width: 671px;
+  padding-top: 150px;
+  padding-bottom: 244px;
 }
 
 .main h3 {
@@ -39,7 +41,7 @@
   font-weight: 600;
   line-height: 125%;
   letter-spacing: -0.03em;
-  color: #04251a;
+  color: var(--second-black);
 }
 
 .main p {

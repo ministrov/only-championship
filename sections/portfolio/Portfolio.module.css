@@ -86,7 +86,12 @@
   color: var(--black-600);
 }
 
-.portfolioBtn {
+/* .work:hover .image img {
+  scale: 1.02;
+  border-radius: 70px;
+} */
+
+.work:hover .portfolioBtn {
   width: 269px;
   height: 69px;
   margin: 0 auto;

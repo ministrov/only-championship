@@ -13,14 +13,9 @@ export const Banner = () => {
             <div className={styles.main}>
               <h3>недвижимость</h3>
               <div className={styles.textWithIcons}>
-                <span>Формируем</span>
-                <span>img</span>
-                <span>ценность</span>
-                <span>бренда</span>
-                <span>img</span>
-                <span>ЖК</span>
-                <span>img</span>
-                <span>в digital - среде</span>
+                <span>Формируем <span><Image src={'/banner-icon-1.svg'} width={44} height={35} alt={''} /></span></span>
+                <span><Image src={'/banner-icon-2.png'} width={44} height={44} alt={''} /> ценность <span>бренда</span><Image src={'/banner-icon-3.png'} width={44} height={44} alt={''} />  <span>ЖК</span></span>
+                <span> <Image src={'/banner-icon-4.png'} width={32} height={32} alt={''} /> в digital - среде</span>
               </div>
               <p>Создаем digital-пространство для девелоперов и проектов ЖК, находя баланс идентичности бренда и сервисности.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
