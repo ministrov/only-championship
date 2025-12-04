@@ -9,7 +9,10 @@
   --black-600: rgba(14, 14, 14, 0.6);
   --black-800: rgba(14, 14, 14, 0.8);
   --basic-black: #0e0e0e;
+  --second-black: #04251a;
   --light-grey: #e4e4e4;
+  --links-hover: #0e0e0e99;
+  /* --links-hover: #0e0e0e9; */
   --green: #00ffa9;
   --bg: #f1f1f1;
 }
@@ -71,6 +74,7 @@ ul {
 
 img {
   max-width: 100%;
+  vertical-align: middle;
 }
 
 input,

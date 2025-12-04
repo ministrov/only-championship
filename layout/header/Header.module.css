@@ -15,8 +15,8 @@
 
 .navigation {
   display: flex;
-  gap: 1rem;
   margin-left: auto;
+  padding-left: 50px;
 }
 
 .mainNav {
@@ -31,6 +31,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 110%;
+  text-transform: lowercase;
   letter-spacing: -0.04em;
   color: var(--basic-black);
 }

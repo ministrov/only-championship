@@ -1,6 +1,11 @@
 .presentation {
   display: flex;
   align-items: center;
+  gap: 15px;
+}
+
+.links {
+  display: flex;
   gap: 5px;
 }
 
@@ -18,6 +23,12 @@
   border-radius: 15px;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  transition: all 0.5s ease-in-out;
+}
+
+.presentation a:hover {
+  background-color: var(--green);
+  scale: 1.05;
 }
 
 .presentation p {

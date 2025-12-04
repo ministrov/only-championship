@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 95dvh;
+  /* height: 97dvh; */
+  min-height: 928px;
   padding-top: 80px;
   border-bottom: 1px solid var(--light-grey);
 }
@@ -30,20 +31,23 @@
 
 .bottomLeft {
   display: flex;
-  gap: 117px;
+  gap: 219px;
+  max-height: 201px;
+  padding-bottom: 50px;
   border-right: 1px solid var(--light-grey);
 }
 
 .sloganWrapper {
   display: flex;
-  gap: 15px;
+  gap: 21px;
+  align-self: flex-end;
 }
 
 .number {
   font-family: var(--font-ttRuns);
-  font-size: 56px;
+  font-size: 70px;
   font-weight: 600;
-  line-height: 90%;
+  line-height: 88%;
   letter-spacing: -0.03em;
   color: var(--basic-black);
 }
@@ -56,9 +60,9 @@
 
 .year {
   font-family: var(--font-ttCommons);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 125%;
+  line-height: 111%;
   letter-spacing: -0.01em;
   color: var(--basic-black);
 }
@@ -67,8 +71,8 @@
   display: inline-block;
   max-width: 193px;
   font-family: var(--font-ttRuns);
-  font-size: 13px;
   font-weight: 500;
+  font-size: 14px;
   line-height: 110%;
   letter-spacing: -0.04em;
   text-transform: lowercase;
@@ -77,17 +81,17 @@
 
 .bottomRight {
   display: flex;
-  gap: 58px;
-  padding-left: 40px;
+  max-height: 193px;
+  padding-left: 50px;
   padding-bottom: 40px;
 }
 
 .digital {
-  max-width: 342px;
-  margin-bottom: 20px;
+  max-width: 460px;
+  margin-bottom: 26px;
   font-family: var(--font-ttCommons);
-  font-size: 16px;
-  font-weight: 450;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.02em;
   color: var(--basic-black);
@@ -95,7 +99,7 @@
 
 .image {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -104,4 +108,5 @@
   width: 287px;
   height: 69px;
   margin-top: auto;
+  margin-left: auto;
 }
