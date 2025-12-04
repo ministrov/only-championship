@@ -15,16 +15,16 @@ export const Banner = () => {
               <div className={styles.textWithIcons}>
                 <span>Формируем <span><Image src={'/banner-icon-1.svg'} width={44} height={35} alt={''} /></span></span>
                 <span><Image src={'/banner-icon-2.png'} width={44} height={44} alt={''} /> ценность <span>бренда</span><Image src={'/banner-icon-3.png'} width={44} height={44} alt={''} />  <span>ЖК</span></span>
-                <span> <Image src={'/banner-icon-4.png'} width={32} height={32} alt={''} /> в digital - среде</span>
+                <span className={styles.earthBox}> <span className={styles.earth}><Image src={'/banner-icon-4.png'} width={32} height={32} alt={''} /></span> <span className={styles.digitalSpace}>в digital - среде</span></span>
               </div>
               <p>Создаем digital-пространство для девелоперов и проектов ЖК, находя баланс идентичности бренда и сервисности.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
             </div>
             <div className={styles.images}>
-              <Image src={'/banner-img-1.png'} width={376} height={261} alt={''} />
+              {/* <Image src={'/banner-img-1.png'} width={476} height={361} alt={''} />
               <Image src={'/banner-img-2.png'} width={242} height={524} alt={''} />
               <Image src={'/banner-img-3.png'} width={432} height={373} alt={''} />
-              <Image src={'/banner-img-4.png'} width={270} height={270} alt={''} />
+              <Image src={'/banner-img-4.png'} width={270} height={270} alt={''} /> */}
             </div>
           </div>
 

@@ -18,7 +18,7 @@
 .main {
   max-width: 671px;
   padding-top: 150px;
-  padding-bottom: 244px;
+  padding-bottom: 225px;
 }
 
 .main h3 {
@@ -44,7 +44,32 @@
   color: var(--second-black);
 }
 
+.earthBox {
+  display: flex;
+  margin-top: 12px;
+}
+
+.earth {
+  display: flex;
+  max-width: 75px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 180px;
+  background-color: var(--green);
+}
+
+.digitalSpace {
+  display: flex;
+  width: 424px;
+  padding: 2px 26px 5px;
+  background-color: var(--green);
+  border-radius: 180px;
+}
+
 .main p {
+  max-width: 510px;
   margin-bottom: 30px;
   font-family: var(--font-ttCommons);
   font-size: 18px;
@@ -69,6 +94,7 @@
   gap: 10px;
   max-width: 70px;
   height: 10px;
+  padding-left: 10px;
 }
 
 .paginationBtn {
@@ -87,19 +113,11 @@
 }
 
 .images {
-  position: relative;
-}
-
-.images img:nth-child(3) {
-  position: absolute;
-  top: 211px;
-  right: -332px;
-}
-
-.images img:nth-child(4) {
-  position: absolute;
-  top: 1px;
-  right: -280px;
+  width: 1073px;
+  height: 688px;
+  background-image: url('../../public/banner-images-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bannerBtn {
