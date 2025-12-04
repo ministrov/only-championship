@@ -81,14 +81,14 @@
 
 .bottomRight {
   display: flex;
-  gap: 58px;
+  max-height: 193px;
   padding-left: 50px;
   padding-bottom: 40px;
 }
 
 .digital {
   max-width: 460px;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
   font-family: var(--font-ttCommons);
   font-size: 18px;
   font-weight: 400;
@@ -108,4 +108,5 @@
   width: 287px;
   height: 69px;
   margin-top: auto;
+  margin-left: auto;
 }
