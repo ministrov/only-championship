@@ -24,6 +24,10 @@
   color: var(--black-1000);
 }
 
+.telegram a:hover {
+  color: var(--links-hover);
+}
+
 @media screen and (max-width: 1440px) {
   .telegram {
     margin-bottom: 80px;

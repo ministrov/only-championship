@@ -10,6 +10,8 @@
   --black-800: rgba(14, 14, 14, 0.8);
   --basic-black: #0e0e0e;
   --light-grey: #e4e4e4;
+  --links-hover: #0e0e0e99;
+  /* --links-hover: #0e0e0e9; */
   --green: #00ffa9;
   --bg: #f1f1f1;
 }

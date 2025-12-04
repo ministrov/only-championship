@@ -7,8 +7,24 @@
 
 .socialItem {
   display: flex;
+  /* align-items: center;
+  gap: 10; */
+}
+
+.link {
+  display: flex;
   align-items: center;
   gap: 10;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .link:hover .socialItem {
+  
+} */
+
+.image:hover {
+  scale: 1.1;
+  background-color: var(--green);
 }
 
 .number {
