@@ -1,7 +1,6 @@
 .awards {
   padding-top: 160px;
-  padding-bottom: 160px;
-  background-color: peru;
+  padding-bottom: 156px;
 }
 
 .top {
@@ -60,20 +59,32 @@
 .achivements {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 34px;
   max-width: 685px;
 }
 
 .link {
   display: flex;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 27px;
+}
+
+.link > span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: var(--black-600);
 }
 
 .text {
+  display: flex;
+  max-height: 63px;
   font-family: var(--font-ttRuns);
   font-size: 70px;
   font-weight: 600;
-  line-height: 63px;
+  line-height: 60px;
   letter-spacing: -0.03em;
   color: var(--black-400);
 }
@@ -107,8 +118,8 @@
   display: flex;
   flex-direction: column;
   width: 293px;
-  height: 293px;
-  padding: 40px;
+  height: 291px;
+  padding: 39px;
   background-color: var(--basic-white);
   border-radius: 30px;
 }

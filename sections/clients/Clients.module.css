@@ -21,3 +21,25 @@
   max-width: 1465px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1440px) {
+  .clients {
+    padding-top: 130px;
+  }
+
+  .title {
+    max-width: 602px;
+    margin-bottom: 80px;
+    font-size: 26px;
+    line-height: 120%;
+  }
+
+  .clientsList {
+    max-width: 1290px;
+  }
+
+  .client img {
+    width: 250px;
+    height: 180px;
+  }
+}

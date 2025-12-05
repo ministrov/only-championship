@@ -52,7 +52,8 @@
 
 .works {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(606px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(606px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(315px, 606px));
   gap: 100px 20px;
   margin-bottom: 100px;
 }
@@ -64,6 +65,10 @@
 .image img {
   border-radius: 30px;
 }
+
+/* .work {
+  min-width: 606px;
+} */
 
 .work h3 {
   margin-left: 20px;
@@ -91,8 +96,80 @@
   border-radius: 70px;
 } */
 
-.work:hover .portfolioBtn {
+.portfolioBtn {
   width: 269px;
   height: 69px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1881px) {
+  .works {
+    grid-template-columns: repeat(3, minmax(315px, 1fr));
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .portfolio {
+    padding-top: 130px;
+  }
+
+  .top {
+    margin-bottom: 80px;
+  }
+
+  .title {
+    margin-top: 42px;
+  }
+
+  .sloganContainer {
+    padding-top: 37px;
+    padding-left: 37px;
+  }
+
+  .sloganOne {
+    max-width: 340px;
+    font-size: 26px;
+    line-height: 120%;
+  }
+
+  .sloganTwo {
+    max-width: 504px;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .works {
+    gap: 80px 20px;
+    margin-bottom: 80px;
+  }
+
+  .work {
+    max-height: 526px;
+  }
+
+  .image {
+    margin-bottom: 24px;
+  }
+
+  .image img {
+    width: 447px;
+    height: 450px;
+    border-radius: 30px;
+  }
+
+  .work h3 {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
+  .work p {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .portfolioBtn {
+    width: 234px;
+    height: 61px;
+    border-radius: 15px;
+  }
 }
