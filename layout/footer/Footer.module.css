@@ -71,7 +71,7 @@
 .bottom a {
   display: flex;
   margin-top: 6px;
-  font-family: var(--second-family);
+  font-family: var(--font-ttCommons);
   font-size: calc(0.625rem + 0.41667vw);
   font-weight: 400;
   line-height: 140%;

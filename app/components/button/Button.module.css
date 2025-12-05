@@ -10,6 +10,7 @@
   font-size: 16px;
   line-height: 120%;
   letter-spacing: -0.03em;
+  text-transform: lowercase;
   color: var(--basic-white);
   background-color: var(--basic-black);
   border: none;
@@ -27,4 +28,11 @@
   scale: 1.1;
   background-color: var(--basic-white);
   color: var(--basic-black);
+}
+
+@media screen and (max-width: 1441px) {
+  .button {
+    font-size: 14px;
+    line-height: 120%;
+  }
 }
