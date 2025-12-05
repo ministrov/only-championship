@@ -57,11 +57,12 @@
 }
 
 .slogan {
+  margin-top: -13px;
   font-family: var(--font-ttRuns);
   font-size: 6.04167vw;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: -0.01em;
+  letter-spacing: -0em;
   text-transform: lowercase;
   white-space: nowrap;
   color: var(--basic-black);
@@ -69,7 +70,7 @@
 
 .bottom a {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 6px;
   font-family: var(--second-family);
   font-size: calc(0.625rem + 0.41667vw);
   font-weight: 400;
@@ -80,7 +81,7 @@
 
 .line {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1440px) {
