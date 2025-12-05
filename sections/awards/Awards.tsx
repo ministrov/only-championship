@@ -42,6 +42,7 @@ export const Awards = () => {
             <p className={styles.text}>
               <span>G8</span>
               <Image src={'/awards-title-img-4.svg'} width={90} height={90} alt={''} />
+              &nbsp;
               <span>Awards</span>
             </p>
             <span>6</span>
@@ -57,6 +58,7 @@ export const Awards = () => {
             <p className={styles.text}>
               <span>Рейтинг</span>
               <Image src={'/awards-title-img-6.svg'} width={90} height={90} alt={''} />
+              &nbsp;
               <span>Рунета</span>
             </p>
             <span>22</span>
@@ -65,6 +67,7 @@ export const Awards = () => {
             <p className={styles.text}>
               <span>Золотой</span>
               <Image src={'/awards-title-img-7.svg'} width={90} height={90} alt={''} />
+              &nbsp;
               <span>Сайт</span>
             </p>
             <span>40</span>
@@ -73,6 +76,7 @@ export const Awards = () => {
             <p className={styles.text}>
               <span>WOW</span>
               <Image src={'/awards-title-img-8.svg'} width={90} height={90} alt={''} />
+              &nbsp;
               <span>Awards</span>
             </p>
             <span className={styles.number}>2</span>
@@ -118,7 +122,7 @@ export const Awards = () => {
                 </dl>
               </header>
 
-              <p>в рейтинге веб-дизайна</p>
+              <p>в рейтинге<br /> веб-дизайна</p>
             </li>
             <li className={styles.cardItem}>
               <header>
