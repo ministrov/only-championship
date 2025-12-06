@@ -22,7 +22,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1441px) {
   .clients {
     padding-top: 130px;
   }
@@ -41,5 +41,27 @@
   .client img {
     width: 250px;
     height: 180px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .clients {
+    padding-top: 100px;
+  }
+
+  .title {
+    max-width: 560px;
+    margin-bottom: 70px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .clientsList {
+    max-width: 1080px;
+  }
+
+  .client img {
+    width: 215px;
+    height: 150px;
   }
 }
