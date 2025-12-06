@@ -107,11 +107,14 @@
   color: var(--black-600);
 }
 
+.awardsContainer {
+  max-width: 920px;
+}
+
 .awardsCardList {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 920px;
 }
 
 .cardItem {
@@ -153,4 +156,69 @@
   letter-spacing: -0.03em;
   text-transform: lowercase;
   color: var(--basic-black);
+}
+
+@media screen and (max-width: 1441px) {
+  .awards {
+    padding-top: 129px;
+    padding-bottom: 129px;
+  }
+
+  .top {
+    margin-bottom: 80px;
+  }
+
+  .left {
+    padding-top: 42px;
+  }
+
+  .right {
+    padding-top: 37px;
+    padding-left: 37px;
+  }
+
+  .awardsContainer {
+    max-width: 680px;
+  }
+
+  .sloganOne {
+    margin-bottom: 26px;
+    max-width: 463px;
+    font-size: 26px;
+    line-height: 120%;
+  }
+
+  .sloganTwo {
+    max-width: 565px;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .text {
+    max-height: 43px;
+    font-size: 56px;
+    line-height: 90%;
+  }
+
+  .cardItem {
+    width: 330px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .cardItem dt {
+    font-size: 26px;
+    line-height: 120%;
+  }
+
+  .cardItem dd {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .cardItem p {
+    font-size: 14px;
+    line-height: 120%;
+  }
 }
