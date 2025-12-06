@@ -20,12 +20,7 @@ export const Banner = () => {
               <p>Создаем digital-пространство для девелоперов и проектов ЖК, находя баланс идентичности бренда и сервисности.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
             </div>
-            <div className={styles.images}>
-              {/* <Image src={'/banner-img-1.png'} width={476} height={361} alt={''} />
-              <Image src={'/banner-img-2.png'} width={242} height={524} alt={''} />
-              <Image src={'/banner-img-3.png'} width={432} height={373} alt={''} />
-              <Image src={'/banner-img-4.png'} width={270} height={270} alt={''} /> */}
-            </div>
+            <div className={styles.images}></div>
           </div>
 
           <div className={styles.pagination}>
