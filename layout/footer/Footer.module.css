@@ -90,7 +90,10 @@
   }
 
   .footerBtn {
+    width: 250px;
+    height: 61px;
     margin-bottom: 91px;
+    border-radius: 15px;
   }
 
   .left p {
@@ -99,7 +102,7 @@
 
   .rightText {
     max-width: 387px;
-    padding-left: 30px;
+    padding-left: 41px;
   }
 
   .rightText > p {
@@ -108,7 +111,12 @@
   }
 
   .slogan {
+    margin-top: -3px;
     font-size: calc(0.375rem + 5.625vw);
+  }
+
+  .bottom a {
+    margin-top: 3px;
   }
 }
 
