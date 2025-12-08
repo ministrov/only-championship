@@ -158,7 +158,7 @@
   color: var(--basic-black);
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 1440px) {
   .awards {
     padding-top: 129px;
     padding-bottom: 129px;
@@ -218,7 +218,168 @@
   }
 
   .cardItem p {
+    max-width: 220px;
     font-size: 14px;
     line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .awards {
+    padding-top: 98px;
+    padding-bottom: 98px;
+  }
+
+  .top {
+    margin-bottom: 70px;
+  }
+
+  .left {
+    padding-top: 30px;
+  }
+
+  .right {
+    padding-top: 28px;
+    padding-left: 28px;
+  }
+
+  .sloganOne {
+    max-width: 420px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .sloganTwo {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .main {
+    justify-content: initial;
+    gap: 43px;
+  }
+
+  .awardsContainer {
+    max-width: 610px;
+  }
+
+  .achivements {
+    gap: 27px;
+    max-width: 100%;
+    width: 587px;
+  }
+
+  .text {
+    font-size: 48px;
+    line-height: 90%;
+  }
+
+  .cardItem {
+    width: 190px;
+    height: 190px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  .cardItem dt {
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .awards {
+    padding-top: 78px;
+    padding-bottom: 80px;
+  }
+
+  .top {
+    margin-bottom: 60px;
+  }
+
+  .left {
+    padding-top: 20px;
+  }
+
+  .right {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .main {
+    gap: 50px;
+  }
+
+  .title {
+    font-size: 13px;
+    line-height: 120%;
+  }
+
+  .sloganOne {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .sloganTwo {
+    max-width: 330px;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  .text {
+    font-size: 32px;
+    line-height: 90%;
+    color: var(--basic-black);
+  }
+
+  .text span {
+    display: flex;
+    height: 29px;
+  }
+
+  .achivements {
+    width: 364px;
+    gap: 15px;
+  }
+
+  .link {
+    max-height: 29px;
+    gap: 15px;
+  }
+
+  .link > span {
+    font-size: 13px;
+    line-height: 120%;
+  }
+
+  .awardsCardList {
+    gap: 15px;
+  }
+
+  .cardItem {
+    width: 170px;
+    height: 170px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .cardItem dt {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .cardItem dd {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .cardItem p {
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .cardItem:last-child {
+    width: 100%;
   }
 }

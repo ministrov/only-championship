@@ -5,7 +5,16 @@
   justify-content: space-between;
   min-height: 928px;
   padding-top: 80px;
-  border-bottom: 1px solid var(--light-grey);
+}
+
+.border {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 150px;
+  background-color: var(--light-grey);
+  transform: rotate(-180deg) translateX(-50%);
 }
 
 .top {
@@ -33,20 +42,20 @@
   gap: 219px;
   max-height: 201px;
   padding-bottom: 50px;
-  border-right: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .sloganWrapper {
   display: flex;
-  gap: 21px;
   align-self: flex-end;
+  gap: 20px;
 }
 
 .number {
   font-family: var(--font-ttRuns);
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 88%;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 91%;
   letter-spacing: -0.03em;
   color: var(--basic-black);
 }
@@ -80,9 +89,11 @@
 
 .bottomRight {
   display: flex;
-  max-height: 193px;
+  max-height: 201px;
   padding-left: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  border-left: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .digital {
@@ -103,6 +114,16 @@
   transform: translate(-50%, -50%);
 }
 
+.heroLinks a {
+  font-size: 20px;
+  line-height: 125%;
+}
+
+.heroTgContact a {
+  font-size: 20px;
+  line-height: 125%;
+}
+
 .heroBtn {
   width: 287px;
   height: 69px;
@@ -110,7 +131,29 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 1441px) {
+.desktopLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.mobilePresent {
+  display: none;
+}
+
+.mobileLinks {
+  display: none;
+}
+
+.desktopPres {
+  display: block;
+}
+
+.yearMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
   .hero {
     min-height: 750px;
     padding-top: 60px;
@@ -133,9 +176,24 @@
     border-radius: 20px;
   }
 
+  .heroLinks a {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
+  .heroTgContact a {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
   .bottomLeft {
-    gap: 112px;
-    padding-bottom: 57px;
+    gap: 115px;
+    padding-bottom: 60px;
+  }
+
+  .desktopLinks {
+    margin-top: 6px;
+    gap: 43px;
   }
 
   .sloganWrapper {
@@ -143,8 +201,8 @@
   }
 
   .number {
-    font-size: 56px;
-    line-height: 90%;
+    font-size: 54px;
+    line-height: 112%;
   }
 
   .textContainer {
@@ -164,6 +222,7 @@
   .bottomRight {
     max-height: 202px;
     padding-left: 40px;
+    padding-bottom: 38px;
   }
 
   .digital {
@@ -181,10 +240,9 @@
   }
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1280px) {
   .hero {
     min-height: 708px;
-    /* padding-top: 60px; */
   }
 
   .slogan {
@@ -197,11 +255,15 @@
     top: 46%;
   }
 
-  /* .image img {
-    width: 456px;
-    height: 230px;
-    border-radius: 20px;
-  } */
+  .heroLinks a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .heroTgContact a {
+    font-size: 16px;
+    line-height: 20px;
+  }
 
   .bottomLeft {
     align-self: flex-end;
@@ -209,46 +271,191 @@
     padding-bottom: 30px;
   }
 
-  /* .sloganWrapper {
-    gap: 17px;
-  } */
-
-  /* .number {
-    font-size: 56px;
-    line-height: 90%;
-  } */
-
-  /* .textContainer {
-    gap: 8px;
-  } */
-
-  /* .year {
-    font-size: 18px;
-    line-height: 125%;
-  } */
-
-  /* .better {
-    font-size: 13px;
-    line-height: 110%;
-  } */
-
   .bottomRight {
-    max-height: 193px;
+    padding-top: 16px;
     padding-left: 30px;
     padding-bottom: 30px;
   }
 
-  /* .digital {
-    max-width: 342px;
-    margin-bottom: 18px;
+  .digital {
+    margin-bottom: 21px;
     font-size: 16px;
-    line-height: 150%;
-  } */
+    line-height: 22px;
+  }
 
   .heroBtn {
     border-radius: 15px;
     padding: 19px 0;
     width: 230px;
     height: 55px;
+  }
+
+  .desktopLinks {
+    gap: 65px;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 970px;
+    padding-top: 50px;
+  }
+
+  .slogan {
+    max-width: 460px;
+    font-size: 38px;
+    line-height: 125%;
+  }
+
+  .image {
+    top: 42%;
+    width: 416px;
+    height: 230px;
+  }
+
+  .image img {
+    border-radius: 12px;
+    height: 226px;
+  }
+
+  .bottomLeft {
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 100px;
+    max-height: 100%;
+    height: 264px;
+  }
+
+  .sloganWrapper {
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .number {
+    font-size: 38px;
+    line-height: 90%;
+  }
+
+  .year {
+    display: none;
+  }
+
+  .yearMobile {
+    display: inline;
+    font-family: var(--font-ttCommons);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    color: var(--basic-black);
+  }
+
+  .better {
+    font-size: 13px;
+    line-height: 110%;
+    text-transform: lowercase;
+  }
+
+  .bottomRight {
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 100%;
+    height: 264px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .mobileLinks {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-bottom: 25px;
+  }
+
+  .digital {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  .mobilePresent {
+    display: block;
+  }
+
+  .desktopLinks {
+    display: none;
+  }
+
+  .desktopPres {
+    display: none;
+  }
+
+  .heroBtn {
+    margin: 0;
+    width: 217px;
+    height: 48px;
+    padding: 16px 0;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero {
+    justify-content: initial;
+    gap: 82px;
+    min-height: 648px;
+    padding-top: 30px;
+  }
+
+  .top {
+    height: 313px;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .slogan {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bottomLeft,
+  .bottomRight {
+    height: 125px;
+    padding-top: 15px;
+    border-bottom: none;
+  }
+
+  .image {
+    top: 43%;
+    width: 225px;
+    height: 135px;
+  }
+
+  .image img {
+    width: 225px;
+    height: 135px;
+    border-radius: 15px;
+  }
+
+  .mobilePresent {
+    display: none;
+  }
+
+  .mobileLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .digital {
+    display: none;
+  }
+
+  .heroBtn {
+    display: none;
   }
 }

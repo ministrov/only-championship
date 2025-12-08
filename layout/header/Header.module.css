@@ -165,7 +165,24 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 3px;
+    padding-bottom: 0px;
+  }
+
+  .logo img {
+    width: 55px;
+    height: 18px;
+  }
+}
+
 @media screen and (max-width: 375px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .wrapper {
     max-height: 32px;
   }

@@ -1,14 +1,9 @@
-.links {
-  margin-bottom: 51px;
-}
-
 .links a {
   display: inline-block;
   font-family: var(--font-ttCommons);
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 125%;
+  line-height: 29px;
   letter-spacing: -0.01em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -16,7 +11,7 @@
 }
 
 .links a:first-child {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .links a:hover {
@@ -24,20 +19,16 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .links {
-    margin-bottom: 24px;
-  }
-
   .links a {
     font-size: 22px;
+  }
+
+  .links a:first-child {
+    margin-bottom: 0px;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .links {
-    margin-bottom: 50px;
-  }
-
   .links a {
     font-size: 18px;
     letter-spacing: 0;
@@ -45,11 +36,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .links {
-    margin-bottom: 20px;
-  }
-
   .links a {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 125%;
   }
 }

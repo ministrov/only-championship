@@ -10,6 +10,7 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <h2 className='visually-hidden'>Section hero</h2>
+      <div className={styles.border}></div>
 
       <header className={styles.top}>
         <p className={styles.slogan}>Creative digital production</p>
@@ -24,26 +25,37 @@ export const Hero = () => {
       <footer className={styles.bottom}>
         <div className={styles.bottomLeft}>
           <p className={styles.sloganWrapper}>
-            <span className={styles.number}>10</span>
+            <span className={styles.number}>10 <span className={styles.yearMobile}>лет</span></span>
             <span className={styles.textContainer}>
               <span className={styles.year}>лет</span> <span className={styles.better}>Лучший креативный разработчик для b2b</span>
             </span>
           </p>
 
-          <div>
-            <Links />
+          <div className={styles.mobilePresent}>
+            <Presentation />
+          </div>
 
-            <TgContact />
+          <div className={styles.desktopLinks}>
+            <Links className={styles.heroLinks} />
+
+            <TgContact className={styles.heroTgContact} />
           </div>
         </div>
 
         <div className={styles.bottomRight}>
+          <div className={styles.mobileLinks}>
+            <Links />
+
+            <TgContact />
+          </div>
           <div className={styles.rightText}>
             <p className={styles.digital}>
               Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
             </p>
 
-            <Presentation />
+            <div className={styles.desktopPres}>
+              <Presentation />
+            </div>
           </div>
 
           <Button className={styles.heroBtn}>Начать проект</Button>

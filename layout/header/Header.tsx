@@ -2,10 +2,19 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 import { Cross as Hamburger } from 'hamburger-react'
 import styles from './Header.module.css';
+import { MobileNav } from '@/app/components/mobileNav/MobileNav';
 
 export const Header = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const handleToggle = () => {
+    setIsOpen((prev) => !prev)
+    console.log(`isOpen: ${isOpen}`);
+  };
+
   return (
     <header className={styles.header}>
       <div className="container">
@@ -47,7 +56,8 @@ export const Header = () => {
 
           <button className={styles.burger}>
             <Hamburger
-              // toggled
+              toggled={isOpen}
+              toggle={handleToggle}
               size={22}
               color="#000000"
               easing="ease-in-out"
@@ -58,6 +68,8 @@ export const Header = () => {
           </button>
         </div>
       </div>
+
+      {isOpen && <MobileNav />}
     </header>
   )
 }
