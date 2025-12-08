@@ -400,3 +400,62 @@
     border-radius: 12px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .hero {
+    justify-content: initial;
+    gap: 82px;
+    min-height: 648px;
+    padding-top: 30px;
+  }
+
+  .top {
+    height: 313px;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .slogan {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .bottomLeft,
+  .bottomRight {
+    height: 125px;
+    padding-top: 15px;
+    border-bottom: none;
+  }
+
+  .image {
+    top: 43%;
+    width: 225px;
+    height: 135px;
+  }
+
+  .image img {
+    width: 225px;
+    height: 135px;
+    border-radius: 15px;
+  }
+
+  .mobilePresent {
+    display: none;
+  }
+
+  .mobileLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .digital {
+    display: none;
+  }
+
+  .heroBtn {
+    display: none;
+  }
+}

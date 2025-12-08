@@ -178,6 +178,11 @@
 }
 
 @media screen and (max-width: 375px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .wrapper {
     max-height: 32px;
   }
