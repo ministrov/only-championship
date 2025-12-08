@@ -24,7 +24,7 @@ export const Hero = () => {
       <footer className={styles.bottom}>
         <div className={styles.bottomLeft}>
           <p className={styles.sloganWrapper}>
-            <span className={styles.number}>10</span>
+            <span className={styles.number}>10 <span className={styles.yearMobile}>лет</span></span>
             <span className={styles.textContainer}>
               <span className={styles.year}>лет</span> <span className={styles.better}>Лучший креативный разработчик для b2b</span>
             </span>
