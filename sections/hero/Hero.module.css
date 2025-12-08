@@ -114,6 +114,11 @@
   transform: translate(-50%, -50%);
 }
 
+.heroLinks a {
+  font-size: 20px;
+  line-height: 125%;
+}
+
 .heroBtn {
   width: 287px;
   height: 69px;

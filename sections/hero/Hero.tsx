@@ -36,7 +36,7 @@ export const Hero = () => {
           </div>
 
           <div className={styles.desktopLinks}>
-            <Links />
+            <Links className={styles.heroLinks} />
 
             <TgContact />
           </div>
