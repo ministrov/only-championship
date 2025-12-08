@@ -176,9 +176,24 @@
     border-radius: 20px;
   }
 
+  .heroLinks a {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
+  .heroTgContact a {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
   .bottomLeft {
-    gap: 112px;
-    padding-bottom: 57px;
+    gap: 115px;
+    padding-bottom: 60px;
+  }
+
+  .desktopLinks {
+    margin-top: 6px;
+    gap: 43px;
   }
 
   .sloganWrapper {
@@ -186,8 +201,8 @@
   }
 
   .number {
-    font-size: 56px;
-    line-height: 90%;
+    font-size: 54px;
+    line-height: 112%;
   }
 
   .textContainer {
@@ -207,6 +222,7 @@
   .bottomRight {
     max-height: 202px;
     padding-left: 40px;
+    padding-bottom: 38px;
   }
 
   .digital {

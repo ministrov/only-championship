@@ -22,6 +22,10 @@
   .links a {
     font-size: 22px;
   }
+
+  .links a:first-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 1280px) {

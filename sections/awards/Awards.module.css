@@ -218,6 +218,7 @@
   }
 
   .cardItem p {
+    max-width: 220px;
     font-size: 14px;
     line-height: 120%;
   }

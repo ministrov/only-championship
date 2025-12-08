@@ -124,8 +124,16 @@
     font-size: calc(0.375rem + 5.625vw);
   }
 
+  .links {
+    margin-bottom: 20px;
+  }
+
   .bottom a {
     margin-top: 3px;
+  }
+
+  .line {
+    gap: 22px;
   }
 }
 
