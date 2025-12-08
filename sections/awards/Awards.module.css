@@ -285,3 +285,99 @@
     line-height: 120%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .awards {
+    padding-top: 78px;
+  }
+
+  .top {
+    margin-bottom: 60px;
+  }
+
+  .left {
+    padding-top: 20px;
+  }
+
+  .right {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .main {
+    gap: 50px;
+  }
+
+  .title {
+    font-size: 13px;
+    line-height: 120%;
+  }
+
+  .sloganOne {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .sloganTwo {
+    max-width: 330px;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  .text {
+    font-size: 32px;
+    line-height: 90%;
+    color: var(--basic-black);
+  }
+
+  .text span {
+    display: flex;
+    height: 29px;
+  }
+
+  .achivements {
+    width: 364px;
+    gap: 15px;
+  }
+
+  .link {
+    max-height: 29px;
+    gap: 15px;
+  }
+
+  .link > span {
+    font-size: 13px;
+    line-height: 120%;
+  }
+
+  .awardsCardList {
+    gap: 15px;
+  }
+
+  .cardItem {
+    width: 170px;
+    height: 170px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .cardItem dt {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .cardItem dd {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .cardItem p {
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .cardItem:last-child {
+    width: 100%;
+  }
+}
