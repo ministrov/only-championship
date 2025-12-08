@@ -110,7 +110,15 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 1441px) {
+.mobilePresent {
+  display: none;
+}
+
+.desktopPres {
+  display: block;
+}
+
+@media screen and (max-width: 1440px) {
   .hero {
     min-height: 750px;
     padding-top: 60px;
@@ -181,10 +189,9 @@
   }
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1280px) {
   .hero {
     min-height: 708px;
-    /* padding-top: 60px; */
   }
 
   .slogan {
@@ -197,40 +204,11 @@
     top: 46%;
   }
 
-  /* .image img {
-    width: 456px;
-    height: 230px;
-    border-radius: 20px;
-  } */
-
   .bottomLeft {
     align-self: flex-end;
     gap: 79px;
     padding-bottom: 30px;
   }
-
-  /* .sloganWrapper {
-    gap: 17px;
-  } */
-
-  /* .number {
-    font-size: 56px;
-    line-height: 90%;
-  } */
-
-  /* .textContainer {
-    gap: 8px;
-  } */
-
-  /* .year {
-    font-size: 18px;
-    line-height: 125%;
-  } */
-
-  /* .better {
-    font-size: 13px;
-    line-height: 110%;
-  } */
 
   .bottomRight {
     max-height: 193px;
@@ -238,17 +216,66 @@
     padding-bottom: 30px;
   }
 
-  /* .digital {
-    max-width: 342px;
-    margin-bottom: 18px;
-    font-size: 16px;
-    line-height: 150%;
-  } */
-
   .heroBtn {
     border-radius: 15px;
     padding: 19px 0;
     width: 230px;
     height: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 970px;
+    padding-top: 50px;
+  }
+
+  .slogan {
+    max-width: 460px;
+    font-size: 38px;
+    line-height: 125%;
+  }
+
+  .image {
+    top: 39%;
+    width: 416px;
+    height: 186px;
+  }
+
+  .image img {
+    border-radius: 12px;
+  }
+
+  .bottomLeft {
+    align-items: initial;
+    flex-direction: column;
+  }
+
+  .bottomRight {
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 100%;
+  }
+
+  .mobileLinks {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .mobilePresent {
+    display: block;
+  }
+
+  .desktopLinks {
+    display: none;
+  }
+
+  .desktopPres {
+    display: none;
+  }
+
+  .heroBtn {
+    margin: 0;
   }
 }

@@ -30,7 +30,11 @@ export const Hero = () => {
             </span>
           </p>
 
-          <div>
+          <div className={styles.mobilePresent}>
+            <Presentation />
+          </div>
+
+          <div className={styles.desktopLinks}>
             <Links />
 
             <TgContact />
@@ -38,12 +42,19 @@ export const Hero = () => {
         </div>
 
         <div className={styles.bottomRight}>
+          <div className={styles.mobileLinks}>
+            <Links />
+
+            <TgContact />
+          </div>
           <div className={styles.rightText}>
             <p className={styles.digital}>
               Only.digital — агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.
             </p>
 
-            <Presentation />
+            <div className={styles.desktopPres}>
+              <Presentation />
+            </div>
           </div>
 
           <Button className={styles.heroBtn}>Начать проект</Button>

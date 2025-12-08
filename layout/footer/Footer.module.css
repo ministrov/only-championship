@@ -145,6 +145,19 @@
   .slogan {
     font-size: calc(0.375rem + 5.625vw);
   }
+
+  .footerBtn {
+    width: 230px;
+    height: 55px;
+    padding: 19px 0;
+    border-radius: 15px;
+  }
+
+  .rightImage img {
+    display: inline-block;
+    width: 154px;
+    height: 24px;
+  }
 }
 
 @media screen and (max-width: 971px) {
