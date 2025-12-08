@@ -223,6 +223,16 @@
     margin-bottom: 24px;
     font-size: 15px;
   }
+
+  .bottom a {
+    margin-top: 7px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .line {
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 640px) {
