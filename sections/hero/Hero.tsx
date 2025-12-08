@@ -10,6 +10,7 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <h2 className='visually-hidden'>Section hero</h2>
+      <div className={styles.border}></div>
 
       <header className={styles.top}>
         <p className={styles.slogan}>Creative digital production</p>

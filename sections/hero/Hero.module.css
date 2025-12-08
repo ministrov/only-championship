@@ -7,6 +7,16 @@
   padding-top: 80px;
 }
 
+.border {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 150px;
+  background-color: var(--light-grey);
+  transform: rotate(-180deg) translateX(-50%);
+}
+
 .top {
   display: flex;
   justify-content: space-between;
@@ -37,15 +47,15 @@
 
 .sloganWrapper {
   display: flex;
-  gap: 21px;
   align-self: flex-end;
+  gap: 20px;
 }
 
 .number {
   font-family: var(--font-ttRuns);
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 88%;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 91%;
   letter-spacing: -0.03em;
   color: var(--basic-black);
 }
@@ -79,9 +89,9 @@
 
 .bottomRight {
   display: flex;
-  max-height: 193px;
+  max-height: 201px;
   padding-left: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   border-left: 1px solid var(--light-grey);
   border-bottom: 1px solid var(--light-grey);
 }
@@ -111,7 +121,17 @@
   margin-left: auto;
 }
 
+.desktopLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+}
+
 .mobilePresent {
+  display: none;
+}
+
+.mobileLinks {
   display: none;
 }
 

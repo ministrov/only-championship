@@ -35,9 +35,17 @@ export const Footer = () => {
         <div className={styles.right}>
           <div className={styles.rightText}>
             <p>Создаем качественный digital-продукт на базе стратегии, креатива и технологий</p>
-            <Links />
-            <TgContact />
-            <Presentation />
+            <div className={styles.links}>
+              <Links />
+            </div>
+
+            <div>
+              <TgContact />
+            </div>
+
+            <div className={styles.presentation}>
+              <Presentation />
+            </div>
           </div>
 
           <div className={styles.rightImage}>
