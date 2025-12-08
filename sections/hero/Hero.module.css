@@ -255,6 +255,16 @@
     top: 46%;
   }
 
+  .heroLinks a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .heroTgContact a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   .bottomLeft {
     align-self: flex-end;
     gap: 79px;
@@ -262,9 +272,15 @@
   }
 
   .bottomRight {
-    max-height: 193px;
+    padding-top: 16px;
     padding-left: 30px;
     padding-bottom: 30px;
+  }
+
+  .digital {
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: 22px;
   }
 
   .heroBtn {
@@ -272,6 +288,11 @@
     padding: 19px 0;
     width: 230px;
     height: 55px;
+  }
+
+  .desktopLinks {
+    gap: 65px;
+    margin-top: 18px;
   }
 }
 
