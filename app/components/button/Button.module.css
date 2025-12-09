@@ -36,3 +36,10 @@
     line-height: 120%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .button {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

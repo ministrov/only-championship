@@ -61,6 +61,9 @@ export const Hero = () => {
           <Button className={styles.heroBtn}>Начать проект</Button>
         </div>
       </footer>
+      <div className={styles.mobileHeroBtnBox}>
+        <Button className={styles.mobileHeroBtn}>Начать проект</Button>
+      </div>
     </section>
   )
 }
