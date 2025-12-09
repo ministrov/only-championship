@@ -12,11 +12,16 @@
 .telegram a {
   font-family: var(--font-ttCommons);
   font-size: 24px;
+  font-weight: 500;
   line-height: 29px;
   letter-spacing: -0.01em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--basic-black);
+}
+
+.tgIconMobile {
+  display: none;
 }
 
 .telegram a:hover {
@@ -29,15 +34,25 @@
   }
 }
 
-/* @media screen and (max-width: 1280px) {
-  .telegram {
-    margin-bottom: 5px;
-  }
-} */
-
 @media screen and (max-width: 768px) {
   .telegram a {
     font-size: 15px;
     line-height: 125%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .telegram p {
+    display: none;
+  }
+
+  .telegram a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .tgIconMobile {
+    display: flex;
   }
 }

@@ -131,6 +131,10 @@
   margin-left: auto;
 }
 
+.mobileHeroBtn {
+  display: none;
+}
+
 .desktopLinks {
   display: flex;
   flex-direction: column;
@@ -404,7 +408,7 @@
 @media screen and (max-width: 375px) {
   .hero {
     justify-content: initial;
-    gap: 82px;
+    gap: 50px;
     min-height: 648px;
     padding-top: 30px;
   }
@@ -424,9 +428,25 @@
 
   .bottomLeft,
   .bottomRight {
-    height: 125px;
-    padding-top: 15px;
+    max-height: 125px;
+    margin-top: 50px;
+    /* padding-top: 30px; */
+    padding-bottom: 0px;
     border-bottom: none;
+  }
+
+  .sloganWrapper {
+    gap: 10px;
+  }
+
+  .number {
+    font-size: 32px;
+    line-height: 29px;
+  }
+
+  .yearMobile {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .image {
@@ -449,6 +469,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    margin-bottom: 0;
   }
 
   .digital {
@@ -457,5 +478,13 @@
 
   .heroBtn {
     display: none;
+  }
+
+  .mobileHeroBtn {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    padding: 16px 0;
+    border-radius: 10px;
   }
 }
