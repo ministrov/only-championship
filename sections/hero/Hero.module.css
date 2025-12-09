@@ -429,8 +429,7 @@
   .bottomLeft,
   .bottomRight {
     max-height: 125px;
-    margin-top: 50px;
-    /* padding-top: 30px; */
+    margin-top: 53px;
     padding-bottom: 0px;
     border-bottom: none;
   }
@@ -447,6 +446,11 @@
   .yearMobile {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .better {
+    font-size: 12px;
+    line-height: 13px;
   }
 
   .image {
@@ -478,6 +482,10 @@
 
   .heroBtn {
     display: none;
+  }
+
+  .mobileHeroBtnBox {
+    margin-top: -38px;
   }
 
   .mobileHeroBtn {

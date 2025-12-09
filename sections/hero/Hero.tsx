@@ -60,7 +60,6 @@ export const Hero = () => {
 
           <Button className={styles.heroBtn}>Начать проект</Button>
         </div>
-        {/* <Button className={styles.mobileHeroBtn}>Начать проект</Button> */}
       </footer>
       <div className={styles.mobileHeroBtnBox}>
         <Button className={styles.mobileHeroBtn}>Начать проект</Button>
