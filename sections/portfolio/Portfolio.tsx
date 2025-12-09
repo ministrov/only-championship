@@ -11,6 +11,7 @@ export const Portfolio = () => {
 
         <div className={styles.sloganContainer}>
           <p className={styles.sloganOne}>Аналитика, брендинг и разработка для B2B</p>
+          <p className={styles.sloganMobile}>Only — digital–агентство с фокусом на сильную аналитику, дизайн и разработку. В основе наших проектов лежат идеи, создаваемые на стыке стратегии, креатива и технологий.</p>
           <p className={styles.sloganTwo}>Обеспечиваем компании лучшими техническими и дизайн-решениями, создавая digital-проекты.</p>
         </div>
       </header>
