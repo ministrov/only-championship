@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 928px;
   padding-top: 80px;
 }
@@ -35,6 +34,7 @@
 .bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: auto;
 }
 
 .bottomLeft {
