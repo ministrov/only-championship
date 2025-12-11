@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   padding: 30px;
+  background-image: url('../../public/banner-images-bg.png');
+  background-repeat: no-repeat;
+  background-position: center right;
   background-color: var(--basic-white);
   border-radius: 30px;
 }
@@ -109,16 +112,6 @@
   background-color: var(--basic-black);
 }
 
-.images {
-  position: absolute;
-  right: 119px;
-  top: 43px;
-  width: 1073px;
-  height: 688px;
-  background-image: url('../../public/banner-images-bg.png');
-  background-repeat: no-repeat;
-}
-
 .bannerBtn {
   width: 257px;
   height: 69px;
@@ -131,6 +124,8 @@
 
   .slide {
     padding-bottom: 41px;
+    background-image: url('../../public/banner-images-bg-lg.png');
+    background-repeat: no-repeat;
   }
 
   .main {
@@ -173,14 +168,6 @@
     border-radius: 154px;
   }
 
-  .images {
-    position: absolute;
-    right: -215px;
-    top: 32px;
-    background-image: url('../../public/banner-images-bg-lg.png');
-    background-repeat: no-repeat;
-  }
-
   .bannerBtn {
     border-radius: 15px;
     padding: 22px 0;
@@ -200,6 +187,9 @@
 
   .slide {
     max-height: 580px;
+    background-image: url('../../public/banner-images-bg-md.png');
+    background-repeat: no-repeat;
+    background-position: 495px 64px;
   }
 
   .mainWrapper {
@@ -210,10 +200,23 @@
     padding-top: 90px;
   }
 
+  .main h3 {
+    margin-bottom: 24px;
+  }
+
   .textWithIcons {
-    margin-bottom: 28px;
+    margin-bottom: 26px;
     font-size: 32px;
     line-height: 41px;
+  }
+
+  .textWithIcons:nth-child(2) {
+    margin-top: -3px;
+  }
+
+  .earth {
+    max-width: 57px;
+    padding: 5px 15px;
   }
 
   .digitalSpace {
@@ -223,15 +226,15 @@
     border-radius: 138px;
   }
 
-  .images {
-    width: 631px;
-    height: 509px;
-  }
-
   .bannerBtn {
     width: 203px;
     height: 55px;
     padding: 19px 0;
+  }
+
+  .pagination {
+    margin-top: 100px;
+    padding-left: 0px;
   }
 }
 
@@ -240,16 +243,18 @@
     padding-top: 63px;
   }
 
+  .slide {
+    padding: 25px;
+    background-image: url('../../public/banner-images-bg-tablet.png');
+    background-repeat: no-repeat;
+  }
+
   .main {
     padding-top: 35px;
   }
 
   .main h3 {
     margin-bottom: 24px;
-  }
-
-  .slide {
-    padding: 25px;
   }
 
   .textWithIcons {

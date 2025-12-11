@@ -20,7 +20,7 @@ export const Banner = () => {
               <p>Создаем digital-пространство для девелоперов и проектов ЖК, находя баланс идентичности бренда и сервисности.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
             </div>
-            <div className={styles.images}></div>
+            {/* <div className={styles.images}></div> */}
           </div>
 
           <div className={styles.pagination}>
