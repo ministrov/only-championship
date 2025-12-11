@@ -3,7 +3,7 @@
   font-family: var(--font-ttRuns);
   font-size: 14px;
   font-weight: 500;
-  line-height: 110%;
+  line-height: 15px;
   text-transform: lowercase;
   letter-spacing: -0.04em;
   color: var(--black-600);
@@ -31,13 +31,14 @@
 @media screen and (max-width: 1440px) {
   .telegram p {
     font-size: 13px;
+    line-height: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .telegram a {
-    font-size: 15px;
-    line-height: 125%;
+    font-size: 24px;
+    line-height: 120%;
   }
 }
 

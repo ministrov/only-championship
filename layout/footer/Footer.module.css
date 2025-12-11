@@ -40,7 +40,7 @@
   padding-left: 50px;
 }
 
-.rightText > p {
+.rightText>p {
   margin-bottom: 40px;
   font-family: var(--font-ttCommons);
   font-size: 18px;
@@ -114,7 +114,7 @@
     padding-left: 41px;
   }
 
-  .rightText > p {
+  .rightText>p {
     margin-bottom: 32px;
     font-size: 16px;
   }
@@ -154,7 +154,7 @@
     padding-left: 30px;
   }
 
-  .rightText > p {
+  .rightText>p {
     margin-bottom: 28px;
     font-size: 16px;
   }
@@ -200,11 +200,11 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding-top: 29px;
+    padding-top: 30px;
   }
 
   .top {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .footerBtn {
@@ -215,17 +215,27 @@
     border-radius: 12px;
   }
 
+  .left p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
   .rightText {
     padding-left: 20px;
   }
 
-  .rightText > p {
+  .rightText>p {
     margin-bottom: 24px;
     font-size: 15px;
+    line-height: 21px;
+  }
+
+  .links {
+    margin-bottom: 18px;
   }
 
   .bottom a {
-    margin-top: 7px;
+    margin-top: 3px;
     font-size: 15px;
     line-height: 21px;
   }

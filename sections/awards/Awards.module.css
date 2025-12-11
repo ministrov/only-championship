@@ -69,7 +69,7 @@
   gap: 27px;
 }
 
-.link > span {
+.link>span {
   font-size: 16px;
   font-weight: 500;
   line-height: 120%;
@@ -129,6 +129,7 @@
 
 .cardItem dt {
   display: inline-block;
+  margin: 0;
   margin-bottom: 10px;
   font-family: var(--font-ttRuns);
   font-size: 32px;
@@ -139,6 +140,7 @@
 }
 
 .cardItem dd {
+  margin: 0;
   font-family: var(--font-ttCommons);
   font-size: 16px;
   font-weight: 500;
@@ -348,7 +350,7 @@
     gap: 15px;
   }
 
-  .link > span {
+  .link>span {
     font-size: 13px;
     line-height: 120%;
   }
@@ -365,6 +367,7 @@
   }
 
   .cardItem dt {
+    margin: 0 0 8px;
     font-size: 20px;
     line-height: 120%;
   }
