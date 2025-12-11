@@ -387,7 +387,7 @@
   }
 }
 
-@media screen and (min-width: 765px) and (max-width: 375px) {
+@media screen and (max-width: 590px) {
   .awards {
     overflow: hidden;
     padding-top: 70px;
@@ -397,10 +397,6 @@
     grid-template-columns: 1fr;
     margin-bottom: 50px;
   }
-
-  /* .left {
-    padding-top: 20px;
-  } */
 
   .right {
     padding-top: 0;
@@ -422,10 +418,6 @@
   .main {
     flex-direction: column;
   }
-
-  /* .awardsContainer {
-    overflow: hidden;
-  } */
 
   .awardsCardList {
     flex-wrap: nowrap;

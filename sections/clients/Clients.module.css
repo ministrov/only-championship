@@ -22,6 +22,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1880px) {
+  .clientsList {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .clients {
     padding-top: 130px;
@@ -83,7 +89,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 590px) {
   .clients {
     padding-top: 32px;
   }

@@ -405,7 +405,20 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 680px) {
+  .mobileLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 0;
+  }
+
+  .digital {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 590px) {
   .hero {
     justify-content: initial;
     gap: 50px;
@@ -473,20 +486,9 @@
     display: none;
   }
 
-  .mobileLinks {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    margin-bottom: 0;
-  }
-
   .tgHero a {
     font-size: 15px;
     line-height: 19px;
-  }
-
-  .digital {
-    display: none;
   }
 
   .heroBtn {
