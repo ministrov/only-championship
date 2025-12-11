@@ -1,5 +1,4 @@
 .projects {
-  overflow: hidden;
   padding-top: 160px;
 }
 
@@ -61,16 +60,16 @@
   color: var(--basic-black);
 }
 
-.carousel {
-  display: grid;
-  grid-template-columns: 450px 450px 450px 450px 450px 450px;
-  column-gap: 20px;
+.carouselTrack {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  flex: 0 0 calc((100% - 60px) / 4);
   height: 420px;
   padding: 40px;
   background-color: var(--basic-white);
@@ -192,12 +191,7 @@
     border-radius: 15px;
   }
 
-  .carousel {
-    grid-template-columns: 330px 330px 330px 330px 330px 330px;
-  }
-
   .item {
-    width: 330px;
     height: 320px;
     padding: 30px;
   }
@@ -268,12 +262,7 @@
     height: 55px;
   }
 
-  .carousel {
-    grid-template-columns: 295px 295px 295px 295px 295px 295px;
-  }
-
   .item {
-    width: 295px;
     height: 300px;
     padding: 20px;
     border-radius: 25px;
@@ -335,13 +324,7 @@
     border-radius: 12px;
   }
 
-  .carousel {
-    grid-template-columns: 357px 357px 357px 357px 357px 357px;
-    gap: 15px;
-  }
-
   .item {
-    width: 357px;
     height: 280px;
     box-sizing: border-box;
   }
