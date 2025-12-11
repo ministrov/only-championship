@@ -14,13 +14,12 @@ export const Banner = () => {
               <h3>недвижимость</h3>
               <div className={styles.textWithIcons}>
                 <span>Формируем <span><Image src={'/banner-icon-1.svg'} width={44} height={35} alt={''} /></span></span>
-                <span><Image src={'/banner-icon-2.png'} width={44} height={44} alt={''} /> ценность <span>бренда</span><Image src={'/banner-icon-3.png'} width={44} height={44} alt={''} />  <span>ЖК</span></span>
+                <span><Image className={styles.iconHeart} src={'/banner-icon-2.png'} width={44} height={44} alt={''} /> ценность <span>бренда</span><Image className={styles.iconBuilding} src={'/banner-icon-3.png'} width={44} height={44} alt={''} />  <span>ЖК</span></span>
                 <span className={styles.earthBox}> <span className={styles.earth}><Image src={'/banner-icon-4.png'} width={32} height={32} alt={''} /></span> <span className={styles.digitalSpace}>в digital - среде</span></span>
               </div>
               <p>Создаем digital-пространство для девелоперов и проектов ЖК, находя баланс идентичности бренда и сервисности.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
             </div>
-            {/* <div className={styles.images}></div> */}
           </div>
 
           <div className={styles.pagination}>
@@ -33,7 +32,7 @@ export const Banner = () => {
           </div>
         </div>
 
-        <div className={styles.slide}>
+        <div className={`${styles.slide} ${styles.slideSecond}`}>
           <div className={styles.mainWrapper}>
             <div className={styles.main}>
               <h3>mobile app</h3>
@@ -45,11 +44,6 @@ export const Banner = () => {
               </div>
               <p>Разрабатываем приложения для мобильных устройств, решая реальные запросы пользователей.</p>
               <Button className={styles.bannerBtn}>Подробнее</Button>
-            </div>
-            <div className={styles.images}>
-              <Image src={'/banner-img-5.png'} width={315} height={176} alt={''} />
-              <Image src={'/banner-img-6.png'} width={410} height={644} alt={''} />
-              <Image src={'/banner-img-7.png'} width={471} height={644} alt={''} />
             </div>
           </div>
 
