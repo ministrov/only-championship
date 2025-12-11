@@ -367,3 +367,38 @@
     line-height: 140%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .projects {
+    padding-top: 70px;
+  }
+
+  .top {
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+
+  .right {
+    padding-left: 0;
+    border: none;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .item {
+    max-width: 315px;
+  }
+
+  .miniCards li {
+    width: 65px;
+    height: 65px;
+  }
+
+  .miniCards li img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+  }
+}
