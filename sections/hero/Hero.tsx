@@ -46,7 +46,7 @@ export const Hero = () => {
           <div className={styles.mobileLinks}>
             <Links />
 
-            <TgContact />
+            <TgContact className={styles.tgHero} />
           </div>
           <div className={styles.rightText}>
             <p className={styles.digital}>

@@ -82,3 +82,18 @@
     max-width: 645px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .clients {
+    padding-top: 32px;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .client img {
+    width: 111px;
+    height: 100px;
+  }
+}
