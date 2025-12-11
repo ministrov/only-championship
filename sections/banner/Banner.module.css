@@ -11,6 +11,7 @@
 }
 
 .mainWrapper {
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -114,10 +115,12 @@
 }
 
 .images {
+  position: absolute;
+  right: 119px;
+  top: 43px;
   width: 1073px;
   height: 688px;
   background-image: url('../../public/banner-images-bg.png');
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -128,6 +131,7 @@
 
 @media screen and (max-width: 1440px) {
   .banner {
+    min-height: 650px;
     padding-top: 80px;
   }
 
@@ -135,10 +139,9 @@
     padding-bottom: 41px;
   }
 
-  .mainWrapper {
+  /* .mainWrapper {
     align-items: initial;
-    max-height: 570px;
-  }
+  } */
 
   .main {
     max-width: 594px;
@@ -177,9 +180,11 @@
   }
 
   .images {
-    width: 704px;
-    height: 579px;
-    background-position: -156px center;
+    position: absolute;
+    top: 43px;
+    right: 119px;
+    width: 670px;
+    height: 511px;
   }
 
   .bannerBtn {
