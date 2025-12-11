@@ -30,14 +30,14 @@
   color: var(--basic-black);
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 1440px) {
   .button {
     font-size: 14px;
     line-height: 120%;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .button {
     font-size: 13px;
     line-height: 16px;

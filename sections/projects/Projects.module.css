@@ -295,7 +295,7 @@
   }
 
   .top {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 
   .title {
@@ -325,9 +325,15 @@
     border-radius: 12px;
   }
 
+  .carouselTrack {
+    gap: 15px;
+  }
+
   .item {
+    flex: 0 0 calc((100% - 40px) / 2);
+    max-width: 357px;
     height: 280px;
-    box-sizing: border-box;
+    border-radius: 20px;
   }
 
   .miniCards li {

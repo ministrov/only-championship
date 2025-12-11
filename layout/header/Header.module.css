@@ -167,8 +167,8 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    padding-top: 3px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0;
   }
 
   .logo img {
@@ -186,6 +186,7 @@
   .wrapper {
     max-height: 32px;
   }
+
   .logo img {
     width: 52px;
     height: 17px;
