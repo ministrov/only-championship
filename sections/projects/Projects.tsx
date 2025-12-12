@@ -1,7 +1,26 @@
+'use client';
+
+import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import styles from './Projects.module.css';
 
 export const Projects = () => {
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const totalItems = 6;
+  const visibleCards = 6;
+  const maxIndex = totalItems - visibleCards;
+
+  console.log(maxIndex);
+  console.log(currentIndex);
+  console.log(setCurrentIndex);
+
+  const goToNextSlide = useCallback(() => {
+    console.log('go to next');
+  }, []);
+
+  const goToPrevSlide = useCallback(() => {
+    console.log('go to prev');
+  }, []);
   return (
     <section className={styles.projects}>
       <header className={styles.top}>
@@ -13,10 +32,20 @@ export const Projects = () => {
           <p className={styles.slogan}>Поддерживаем и развиваем долгосрочное сотрудничество</p>
 
           <div className={styles.controls}>
-            <button className={styles.prev} type='button'>
+            <button
+              className={styles.prev}
+              type='button'
+              onClick={goToPrevSlide}
+              aria-label='Предыдущая карточка'
+            >
               <Image src={'/arrow-left.svg'} width={20} height={20} alt={''} />
             </button>
-            <button className={styles.next} type='button'>
+            <button
+              className={styles.next}
+              type='button'
+              onClick={goToNextSlide}
+              aria-label='Следующая карточка'
+            >
               <Image src={'/arrow-right.svg'} width={20} height={20} alt={''} />
             </button>
           </div>
